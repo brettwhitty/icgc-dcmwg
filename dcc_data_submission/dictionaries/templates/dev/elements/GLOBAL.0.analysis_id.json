@@ -1,8 +1,8 @@
 {
-   "summaryType" : null,
+   "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "analysis_id",
-   "label" : "Unique identfier for the analysis performed for a particular group of samples",
+   "label" : "Unique identifier assigned to an analysis run performed on a particular group of samples",
    "valueType" : "TEXT",
    "restrictions" : [
       {

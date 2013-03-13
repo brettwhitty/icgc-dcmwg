@@ -1,8 +1,8 @@
 {
-   "summaryType" : null,
+   "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "analyzed_sample_id",
-   "label" : null,
+   "label" : "A unique identifier representing the particular sample that was analyzed; must be present in sample file",
    "valueType" : "TEXT",
    "restrictions" : [
       {

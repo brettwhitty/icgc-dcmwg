@@ -1,5 +1,5 @@
 {
-   "summaryType" : null,
+   "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "xref_mirbase_id",
    "label" : "Cross-reference to miRBase ID (e.g. has-let-7c) if available",

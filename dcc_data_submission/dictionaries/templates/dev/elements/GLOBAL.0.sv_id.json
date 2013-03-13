@@ -1,8 +1,8 @@
 {
-   "summaryType" : null,
+   "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "sv_id",
-   "label" : "Unique variant id (institute wide). One id per single event",
+   "label" : "A unique identifier assigned to a particular structural variant observation (one ID per event).",
    "valueType" : "TEXT",
    "restrictions" : [
       {

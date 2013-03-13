@@ -1,8 +1,8 @@
 {
-   "summaryType" : null,
+   "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "methylated_fragment_id",
-   "label" : "Unique identifier for the methylation",
+   "label" : "A unique identifier associated with the fragment interrogated by the methylation analysis; provide platform-specific identifier if available",
    "valueType" : "TEXT",
    "restrictions" : [
       {

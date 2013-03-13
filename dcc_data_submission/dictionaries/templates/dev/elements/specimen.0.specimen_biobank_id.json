@@ -1,5 +1,5 @@
 {
-   "summaryType" : null,
+   "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "specimen_biobank_id",
    "label" : "If the specimen was obtained from a biobank, provide the biobank accession number here.",
