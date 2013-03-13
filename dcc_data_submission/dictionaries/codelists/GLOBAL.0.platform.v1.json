@@ -377,6 +377,26 @@
          "uri" : null,
          "code" : "75"
       }
+      {
+         "value" : "PacBio RS sequencing",
+         "uri" : null,
+         "code" : "76"
+      },
+      {
+         "value" : "Affymetrix OncoScan FFPE Express 2.0",
+         "uri" : null,
+         "code" : "77"
+      },
+      {
+         "value" : "Illumina MiSeq Personal Sequencer",
+         "uri" : null,
+         "code" : "78"
+      },
+      {
+         "value" : "Affymetrix Human Genome U219 Array Plate",
+         "uri" : null,
+         "code" : "79"
+      },
    ],
    "name" : "GLOBAL.0.platform.v1",
    "label" : "Analysis and Validation Platforms"
