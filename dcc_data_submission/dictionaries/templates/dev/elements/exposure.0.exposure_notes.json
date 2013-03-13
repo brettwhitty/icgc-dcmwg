@@ -1,6 +1,6 @@
 {
    "summaryType" : null,
-   "controlled" : false,
+   "controlled" : true,
    "name" : "exposure_notes",
    "label" : "Free text notes.",
    "valueType" : "TEXT",

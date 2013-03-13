@@ -1,6 +1,6 @@
 {
    "summaryType" : null,
-   "controlled" : false,
+   "controlled" : true,
    "name" : "specimen_notes",
    "label" : "Free text notes allowed",
    "valueType" : "TEXT",

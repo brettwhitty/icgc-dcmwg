@@ -1,6 +1,6 @@
 {
    "summaryType" : null,
-   "controlled" : false,
+   "controlled" : true,
    "name" : "note",
    "label" : "Optional field to leave notes",
    "valueType" : "TEXT",
