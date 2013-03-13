@@ -66,12 +66,12 @@
          "optionals" : [],
          "fields" : [
             "analysis_id",
-            "sample_id"
+            "analyzed_sample_id"
          ],
          "other" : "exp_m",
          "otherFields" : [
             "analysis_id",
-            "sample_id"
+            "analyzed_sample_id"
          ]
       }
    ],
