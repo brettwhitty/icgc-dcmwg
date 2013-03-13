@@ -1,0 +1,43 @@
+{
+   "pattern" : "^mirna__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__s__\\w+\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.mirna_seq.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_start.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_end.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_strand.json"
+      },
+      {
+         "_include" : "elements/mirna_s.0.xref_mirbase_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "name" : "mirna_s",
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "mirna_seq"
+         ],
+         "other" : "mirna_p",
+         "otherFields" : [
+            "mirna_seq"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [],
+   "role" : "SUBMISSION"
+}

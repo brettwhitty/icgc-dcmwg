@@ -1,0 +1,55 @@
+{
+   "pattern" : "^\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__surgery__\\w+\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.donor_id.json"
+      },
+      {
+         "_include" : "elements/surgery.0.procedure_interval.json"
+      },
+      {
+         "_include" : "elements/surgery.0.procedure_type.json"
+      },
+      {
+         "_include" : "elements/surgery.0.procedure_site.json"
+      },
+      {
+         "_include" : "elements/surgery.0.resection_status.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.specimen_id.json"
+      }
+   ],
+   "name" : "surgery",
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "donor_id"
+         ],
+         "other" : "donor",
+         "otherFields" : [
+            "donor_id"
+         ]
+      },
+      {
+         "bidirectional" : false,
+         "optionals" : [
+            1
+         ],
+         "fields" : [
+            "donor_id",
+            "specimen_id"
+         ],
+         "other" : "specimen",
+         "otherFields" : [
+            "donor_id",
+            "specimen_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [],
+   "role" : "SUBMISSION"
+}

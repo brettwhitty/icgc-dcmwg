@@ -1,0 +1,88 @@
+{
+   "pattern" : "^cnsm__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__p__\\w+\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.analysis_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.analyzed_sample_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.mutation_id.json"
+      },
+      {
+         "_include" : "elements/cnsm_p.0.mutation_type.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_start.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_end.json"
+      },
+      {
+         "_include" : "elements/cnsm_p.0.chromosome_start_range.json"
+      },
+      {
+         "_include" : "elements/cnsm_p.0.chromosome_end_range.json"
+      },
+      {
+         "_include" : "elements/cnsm_p.0.start_probe_id.json"
+      },
+      {
+         "_include" : "elements/cnsm_p.0.end_probe_id.json"
+      },
+      {
+         "_include" : "elements/cnsm_p.0.copy_number.json"
+      },
+      {
+         "_include" : "elements/cnsm_p.0.segment_mean.json"
+      },
+      {
+         "_include" : "elements/cnsm_p.0.segment_median.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.quality_score.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.probability.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.is_annotated.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.verification_status.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.verification_platform.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "name" : "cnsm_p",
+   "relations" : [
+      {
+         "bidirectional" : true,
+         "optionals" : [],
+         "fields" : [
+            "analysis_id",
+            "analyzed_sample_id"
+         ],
+         "other" : "cnsm_m",
+         "otherFields" : [
+            "analysis_id",
+            "analyzed_sample_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [
+      "analysis_id",
+      "analyzed_sample_id",
+      "mutation_id"
+   ],
+   "role" : "SUBMISSION"
+}

@@ -1,0 +1,40 @@
+{
+   "pattern" : "^\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__therapy__\\w+\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.donor_id.json"
+      },
+      {
+         "_include" : "elements/therapy.0.therapy_start_interval.json"
+      },
+      {
+         "_include" : "elements/therapy.0.therapy_duration.json"
+      },
+      {
+         "_include" : "elements/therapy.0.therapy_type.json"
+      },
+      {
+         "_include" : "elements/therapy.0.therapy_response.json"
+      },
+      {
+         "_include" : "elements/therapy.0.therapy_notes.json"
+      }
+   ],
+   "name" : "therapy",
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "donor_id"
+         ],
+         "other" : "donor",
+         "otherFields" : [
+            "donor_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [],
+   "role" : "SUBMISSION"
+}

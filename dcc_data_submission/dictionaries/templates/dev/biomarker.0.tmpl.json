@@ -1,0 +1,52 @@
+{
+   "pattern" : "^\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__biomarker__\\w+\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.donor_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.specimen_id.json"
+      },
+      {
+         "_include" : "elements/biomarker.0.biomarker_name.json"
+      },
+      {
+         "_include" : "elements/biomarker.0.biomarker_threshold.json"
+      },
+      {
+         "_include" : "elements/biomarker.0.biomarker_positive.json"
+      }
+   ],
+   "name" : "biomarker",
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "donor_id"
+         ],
+         "other" : "donor",
+         "otherFields" : [
+            "donor_id"
+         ]
+      },
+      {
+         "bidirectional" : false,
+         "optionals" : [
+            1
+         ],
+         "fields" : [
+            "donor_id",
+            "specimen_id"
+         ],
+         "other" : "specimen",
+         "otherFields" : [
+            "donor_id",
+            "specimen_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [],
+   "role" : "SUBMISSION"
+}

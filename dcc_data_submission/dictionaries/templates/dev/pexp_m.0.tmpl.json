@@ -1,0 +1,46 @@
+{
+   "pattern" : "^pexp__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__m__\\w+\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.analysis_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.analyzed_sample_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.platform.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.experimental_protocol.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.raw_data_repository.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.raw_data_accession.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "name" : "pexp_m",
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "analyzed_sample_id"
+         ],
+         "other" : "sample",
+         "otherFields" : [
+            "analyzed_sample_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [
+      "analysis_id",
+      "analyzed_sample_id"
+   ],
+   "role" : "SUBMISSION"
+}

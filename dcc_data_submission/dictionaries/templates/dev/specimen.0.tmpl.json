@@ -1,0 +1,96 @@
+{
+   "pattern" : "^\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__specimen__\\w+\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.donor_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.specimen_id.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_type.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_type_other.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_interval.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_donor_treatment_type.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_donor_treatment_type_other.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_processing.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_processing_other.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_storage.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_storage_other.json"
+      },
+      {
+         "_include" : "elements/specimen.0.tumour_confirmed.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_biobank.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_biobank_id.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_available.json"
+      },
+      {
+         "_include" : "elements/specimen.0.tumour_histological_type.json"
+      },
+      {
+         "_include" : "elements/specimen.0.tumour_grading_system.json"
+      },
+      {
+         "_include" : "elements/specimen.0.tumour_grade.json"
+      },
+      {
+         "_include" : "elements/specimen.0.tumour_grade_supplemental.json"
+      },
+      {
+         "_include" : "elements/specimen.0.tumour_stage_system.json"
+      },
+      {
+         "_include" : "elements/specimen.0.tumour_stage.json"
+      },
+      {
+         "_include" : "elements/specimen.0.tumour_stage_supplemental.json"
+      },
+      {
+         "_include" : "elements/specimen.0.digital_image_of_stained_section.json"
+      },
+      {
+         "_include" : "elements/specimen.0.specimen_notes.json"
+      }
+   ],
+   "name" : "specimen",
+   "relations" : [
+      {
+         "bidirectional" : true,
+         "optionals" : [],
+         "fields" : [
+            "donor_id"
+         ],
+         "other" : "donor",
+         "otherFields" : [
+            "donor_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [
+      "specimen_id"
+   ],
+   "role" : "SUBMISSION"
+}
