@@ -1,0 +1,94 @@
+{
+   "pattern" : "^sgv__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__p__\\d+__(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.analysis_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.control_sample_id.json"
+      },
+      {
+         "_include" : "elements/sgv_p.0.variation_id.json"
+      },
+      {
+         "_include" : "elements/sgv_p.0.variation_type.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_start.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_end.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_strand.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.refsnp_allele.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.refsnp_strand.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.reference_genome_allele.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.control_genotype.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.tumour_genotype.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.expressed_allele.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.quality_score.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.probability.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.read_count.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.is_annotated.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.verification_status.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.verification_platform.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.xref_ensembl_var_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "name" : "sgv_p",
+   "relations" : [
+      {
+         "bidirectional" : true,
+         "optionals" : [],
+         "fields" : [
+            "analysis_id",
+            "control_sample_id"
+         ],
+         "other" : "sgv_m",
+         "otherFields" : [
+            "analysis_id",
+            "control_sample_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [
+      "analysis_id",
+      "control_sample_id",
+      "variation_id"
+   ],
+   "role" : "SUBMISSION"
+}

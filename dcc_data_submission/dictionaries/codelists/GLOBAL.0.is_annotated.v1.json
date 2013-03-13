@@ -1,0 +1,18 @@
+{
+   "created" : 1347981138659,
+   "lastUpdate" : 1347981138659,
+   "terms" : [
+      {
+         "value" : "annotated",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "not annotated",
+         "uri" : null,
+         "code" : "2"
+      }
+   ],
+   "name" : "GLOBAL.0.is_annotated.v1",
+   "label" : null
+}

@@ -1,0 +1,23 @@
+{
+   "created" : 1347981138660,
+   "lastUpdate" : 1347981138660,
+   "terms" : [
+      {
+         "value" : "R0 - no apparent residual disease.",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "R1 - microscopic residual disease.",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "R2 - gross residual disease.",
+         "uri" : null,
+         "code" : "3"
+      }
+   ],
+   "name" : "surgery.0.resection_status.v1",
+   "label" : null
+}

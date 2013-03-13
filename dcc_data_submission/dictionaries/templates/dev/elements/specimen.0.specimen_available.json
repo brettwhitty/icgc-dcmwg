@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "specimen_available",
+   "label" : "Whether additional tissue is available for followup studies.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.yes_no.v1"
+         }
+      }
+   ]
+}

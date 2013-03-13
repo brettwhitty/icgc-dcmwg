@@ -1,0 +1,15 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "exon1_number_bases",
+   "label" : "Number of bases from 5' exon",
+   "valueType" : "INTEGER",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

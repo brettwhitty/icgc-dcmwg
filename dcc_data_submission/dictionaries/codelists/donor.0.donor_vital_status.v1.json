@@ -1,0 +1,18 @@
+{
+   "created" : 1347981138661,
+   "lastUpdate" : 1347981138661,
+   "terms" : [
+      {
+         "value" : "alive",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "deceased",
+         "uri" : null,
+         "code" : "2"
+      }
+   ],
+   "name" : "donor.0.donor_vital_status.v1",
+   "label" : null
+}

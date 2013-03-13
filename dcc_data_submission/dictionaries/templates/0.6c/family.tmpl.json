@@ -1,0 +1,43 @@
+{
+   "pattern" : "^\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__family__(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.donor_id.json"
+      },
+      {
+         "_include" : "elements/family.0.relationship_type.json"
+      },
+      {
+         "_include" : "elements/family.0.relationship_type_other.json"
+      },
+      {
+         "_include" : "elements/family.0.relationship_sex.json"
+      },
+      {
+         "_include" : "elements/family.0.relationship_age.json"
+      },
+      {
+         "_include" : "elements/family.0.relationship_disease_icd10.json"
+      },
+      {
+         "_include" : "elements/family.0.relationship_disease.json"
+      }
+   ],
+   "name" : "family",
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "donor_id"
+         ],
+         "other" : "donor",
+         "otherFields" : [
+            "donor_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [],
+   "role" : "SUBMISSION"
+}

@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "consequence_type",
+   "label" : "Functional consequence of the SNP.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

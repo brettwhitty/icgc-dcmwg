@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "donor_relapse_type",
+   "label" : "Type of relapse or progression (for liquid tumours), if applicable",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "donor.0.donor_relapse_type.v1"
+         }
+      }
+   ]
+}

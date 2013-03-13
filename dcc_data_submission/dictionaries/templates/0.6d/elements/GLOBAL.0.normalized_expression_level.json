@@ -1,0 +1,15 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "normalized_expression_level",
+   "label" : "Normalized protein expression level",
+   "valueType" : "DECIMAL",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

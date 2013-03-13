@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "verification_platform",
+   "label" : "Platform or technology used in validation",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.platform.v1"
+         }
+      }
+   ]
+}

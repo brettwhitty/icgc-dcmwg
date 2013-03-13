@@ -1,0 +1,63 @@
+{
+   "created" : 1347981138658,
+   "lastUpdate" : 1347981138658,
+   "terms" : [
+      {
+         "value" : "Normal blood",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "Leukemic blood",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "Normal control adjacent to primary",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "Normal control from non-tumour site",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "Control from cell line derived from normal tissue",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "Normal mouse host",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "Primary tumour",
+         "uri" : null,
+         "code" : "7"
+      },
+      {
+         "value" : "Mouse xenograft derived from tumour",
+         "uri" : null,
+         "code" : "8"
+      },
+      {
+         "value" : "Cell line derived from tumour",
+         "uri" : null,
+         "code" : "9"
+      },
+      {
+         "value" : "Cell line derived from xenograft",
+         "uri" : null,
+         "code" : "10"
+      },
+      {
+         "value" : "Other (specify)",
+         "uri" : null,
+         "code" : "11"
+      }
+   ],
+   "name" : "sample.0.analyzed_sample_type.v1",
+   "label" : null
+}

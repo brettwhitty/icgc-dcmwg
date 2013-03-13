@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "methylated_fragment_id",
+   "label" : "Unique identifier for the methylation",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : true,
+   "name" : "donor_region_of_residence",
+   "label" : "Country, and optionally state or province code, but not city.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

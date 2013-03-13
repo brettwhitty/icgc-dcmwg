@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "therapy_type",
+   "label" : "Name of therapy",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

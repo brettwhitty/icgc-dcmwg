@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : true,
+   "name" : "control_sample_id",
+   "label" : "Unique identifier for the control sample",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

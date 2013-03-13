@@ -1,0 +1,53 @@
+{
+   "created" : 1347981138663,
+   "lastUpdate" : 1347981138663,
+   "terms" : [
+      {
+         "value" : "Copy number change",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "FISH",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "Flow-sorted chromosome evidence",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "Paired sequence either side of breakpoint",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "Partner breakpoint found",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "PCR product across breakpoint",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "Protein evidence",
+         "uri" : null,
+         "code" : "7"
+      },
+      {
+         "value" : "Seen in multiple samples",
+         "uri" : null,
+         "code" : "8"
+      },
+      {
+         "value" : "Sequence across breakpoint",
+         "uri" : null,
+         "code" : "9"
+      }
+   ],
+   "name" : "stsm_p.0.evidence.v1",
+   "label" : null
+}

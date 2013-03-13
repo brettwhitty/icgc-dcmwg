@@ -1,0 +1,15 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "chr_to_bkpt",
+   "label" : "Breakpoint position of the mutation/variation on the acceptor chromosome",
+   "valueType" : "INTEGER",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

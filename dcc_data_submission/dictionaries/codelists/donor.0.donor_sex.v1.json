@@ -1,0 +1,18 @@
+{
+   "created" : 1347981138660,
+   "lastUpdate" : 1347981138660,
+   "terms" : [
+      {
+         "value" : "male",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "female",
+         "uri" : null,
+         "code" : "2"
+      }
+   ],
+   "name" : "donor.0.donor_sex.v1",
+   "label" : null
+}

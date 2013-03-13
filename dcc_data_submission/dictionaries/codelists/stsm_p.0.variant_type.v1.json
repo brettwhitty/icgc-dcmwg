@@ -1,0 +1,108 @@
+{
+   "created" : 1347981138665,
+   "lastUpdate" : 1347981138665,
+   "terms" : [
+      {
+         "value" : "deletion",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "tandem duplication",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "inversion",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "inverted duplication - head-to-head",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "inverted duplication - tail-to-tail",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "insertion",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "intrachromosomal rearrangement with inverted orientation",
+         "uri" : null,
+         "code" : "7"
+      },
+      {
+         "value" : "intrachromosomal rearrangement with non-inverted orientation",
+         "uri" : null,
+         "code" : "8"
+      },
+      {
+         "value" : "fold-back inversion",
+         "uri" : null,
+         "code" : "9"
+      },
+      {
+         "value" : "complex intrachromosomal rearrangement",
+         "uri" : null,
+         "code" : "10"
+      },
+      {
+         "value" : "reciprocal translocation",
+         "uri" : null,
+         "code" : "11"
+      },
+      {
+         "value" : "unbalanced translocation",
+         "uri" : null,
+         "code" : "12"
+      },
+      {
+         "value" : "interchromosomal insertion",
+         "uri" : null,
+         "code" : "13"
+      },
+      {
+         "value" : "interchromosomal rearrangement - unknown type",
+         "uri" : null,
+         "code" : "14"
+      },
+      {
+         "value" : "complex interchromosomal rearrangement",
+         "uri" : null,
+         "code" : "15"
+      },
+      {
+         "value" : "intrachromosomal amplicon-to-amplicon",
+         "uri" : null,
+         "code" : "16"
+      },
+      {
+         "value" : "intrachromosomal amplicon-to-nonamplified dna",
+         "uri" : null,
+         "code" : "17"
+      },
+      {
+         "value" : "interchromosomal amplicon-to-amplicon",
+         "uri" : null,
+         "code" : "18"
+      },
+      {
+         "value" : "interchromosomal amplicon-to-nonamplified dna",
+         "uri" : null,
+         "code" : "19"
+      },
+      {
+         "value" : "extrachromosomal",
+         "uri" : null,
+         "code" : "20"
+      }
+   ],
+   "name" : "stsm_p.0.variant_type.v1",
+   "label" : null
+}

@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "tumour_grading_system",
+   "label" : "Name of tumour grading system",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

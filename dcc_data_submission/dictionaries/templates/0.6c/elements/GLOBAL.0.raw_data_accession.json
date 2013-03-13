@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "raw_data_accession",
+   "label" : "Accession and URL for referencing the raw data at the public repository",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

@@ -1,0 +1,33 @@
+{
+   "created" : 1347981138665,
+   "lastUpdate" : 1347981138665,
+   "terms" : [
+      {
+         "value" : "EGA",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "dbSNP",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "TCGA",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "CGHub",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "GEO",
+         "uri" : null,
+         "code" : "5"
+      }
+   ],
+   "name" : "GLOBAL.0.raw_data_repository.v1",
+   "label" : null
+}

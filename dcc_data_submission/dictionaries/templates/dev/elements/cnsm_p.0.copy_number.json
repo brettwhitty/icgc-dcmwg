@@ -1,0 +1,15 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "copy_number",
+   "label" : "DNA copy number estimated",
+   "valueType" : "DECIMAL",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

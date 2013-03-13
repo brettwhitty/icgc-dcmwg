@@ -1,0 +1,8 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "beta_value",
+   "label" : null,
+   "valueType" : "DECIMAL",
+   "restrictions" : []
+}

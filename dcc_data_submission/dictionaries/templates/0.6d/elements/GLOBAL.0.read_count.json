@@ -1,0 +1,8 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "read_count",
+   "label" : "Average number of times the bases are covered by raw reads",
+   "valueType" : "DECIMAL",
+   "restrictions" : []
+}

@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "expressed_allele",
+   "label" : "For heterozygous SNPs, the dominant allele as revealed by RNA-seq, etc.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

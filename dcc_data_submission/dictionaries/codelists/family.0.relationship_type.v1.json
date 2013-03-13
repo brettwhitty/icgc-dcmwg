@@ -1,0 +1,38 @@
+{
+   "created" : 1347981138666,
+   "lastUpdate" : 1347981138666,
+   "terms" : [
+      {
+         "value" : "sibling",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "parent",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "grandparent",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "uncle/aunt",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "cousin",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "other",
+         "uri" : null,
+         "code" : "6"
+      }
+   ],
+   "name" : "family.0.relationship_type.v1",
+   "label" : null
+}

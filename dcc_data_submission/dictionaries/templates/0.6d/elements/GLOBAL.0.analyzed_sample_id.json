@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "analyzed_sample_id",
+   "label" : null,
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : true,
+   "name" : "variation_id",
+   "label" : "Unique identifier for the variation",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

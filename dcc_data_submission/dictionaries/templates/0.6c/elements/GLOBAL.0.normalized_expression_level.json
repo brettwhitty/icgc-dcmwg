@@ -1,0 +1,8 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "normalized_expression_level",
+   "label" : "Normalized value of expression level if analyzed by microarray platforms",
+   "valueType" : "DECIMAL",
+   "restrictions" : []
+}

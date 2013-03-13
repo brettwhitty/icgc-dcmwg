@@ -1,0 +1,43 @@
+{
+   "created" : 1347981138662,
+   "lastUpdate" : 1347981138662,
+   "terms" : [
+      {
+         "value" : "frozen, liquid nitrogen",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "frozen, -70 freezer",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "frozen, vapor phase",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "RNA later frozen",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "paraffin block",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "cut slide",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "other",
+         "uri" : null,
+         "code" : "7"
+      }
+   ],
+   "name" : "specimen.0.specimen_storage.v1",
+   "label" : null
+}

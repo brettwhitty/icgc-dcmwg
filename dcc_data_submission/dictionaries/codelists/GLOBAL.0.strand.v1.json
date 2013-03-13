@@ -1,0 +1,18 @@
+{
+   "created" : 1347981138660,
+   "lastUpdate" : 1347981138660,
+   "terms" : [
+      {
+         "value" : "1",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "-1",
+         "uri" : null,
+         "code" : "-1"
+      }
+   ],
+   "name" : "GLOBAL.0.strand.v1",
+   "label" : null
+}

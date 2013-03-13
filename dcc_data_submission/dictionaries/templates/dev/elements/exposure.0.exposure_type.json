@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "exposure_type",
+   "label" : "Type of exposure. This is a controlled vocabulary term to be developed by the submitting group.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

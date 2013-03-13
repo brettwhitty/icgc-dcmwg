@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "gene_stable_id",
+   "label" : "Stable ID of the gene containing the 5' exon at the junction.  For annotated gene, use Ensembl gene ID.  For putative and novel gene, use assemblyBuild_chr_start_end where assemblyBuild can be hg18 or hg19.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

@@ -1,0 +1,48 @@
+{
+   "created" : 1347981138660,
+   "lastUpdate" : 1347981138660,
+   "terms" : [
+      {
+         "value" : "surgical resection of primary",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "surgical resection of local recurrence",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "surgical resection of distant recurrence (metastasis)",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "lymph node dissection performed at time of resection of primary.",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "biopsy of primary",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "biopsy of local recurrence",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "biopsy of distant recurrence.",
+         "uri" : null,
+         "code" : "7"
+      },
+      {
+         "value" : "other",
+         "uri" : null,
+         "code" : "8"
+      }
+   ],
+   "name" : "surgery.0.procedure_type.v1",
+   "label" : null
+}

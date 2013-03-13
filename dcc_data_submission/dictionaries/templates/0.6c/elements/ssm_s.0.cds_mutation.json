@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "cds_mutation",
+   "label" : "Changes in coding sequence.  Indicate position, reference base and mutation base.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

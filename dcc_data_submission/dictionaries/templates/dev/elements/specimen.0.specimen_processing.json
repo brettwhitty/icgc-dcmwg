@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "specimen_processing",
+   "label" : "Description of technique used to process specimen",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "specimen.0.specimen_processing.v1"
+         }
+      }
+   ]
+}

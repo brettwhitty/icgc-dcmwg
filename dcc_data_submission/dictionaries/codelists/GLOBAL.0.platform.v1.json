@@ -1,0 +1,383 @@
+{
+   "created" : 1347981138662,
+   "lastUpdate" : 1347981138662,
+   "terms" : [
+      {
+         "value" : "PCR",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "qPCR",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "capillary sequencing",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "SOLiD sequencing",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "Illumina GA sequencing",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "454 sequencing",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "Helicos sequencing",
+         "uri" : null,
+         "code" : "7"
+      },
+      {
+         "value" : "Affymetrix Genome-Wide Human SNP Array 6.0",
+         "uri" : null,
+         "code" : "8"
+      },
+      {
+         "value" : "Affymetrix Genome-Wide Human SNP Array 5.0",
+         "uri" : null,
+         "code" : "9"
+      },
+      {
+         "value" : "Affymetrix Mapping 100K Array Set",
+         "uri" : null,
+         "code" : "10"
+      },
+      {
+         "value" : "Affymetrix Mapping 500K Array Set",
+         "uri" : null,
+         "code" : "11"
+      },
+      {
+         "value" : "Affymetrix Mapping 10K 2.0 Array Set",
+         "uri" : null,
+         "code" : "12"
+      },
+      {
+         "value" : "Affymetrix EMET Plus Premier Pack",
+         "uri" : null,
+         "code" : "13"
+      },
+      {
+         "value" : "Agilent Whole Human Genome Oligo Microarray Kit",
+         "uri" : null,
+         "code" : "14"
+      },
+      {
+         "value" : "Agilent Human Genome 244A",
+         "uri" : null,
+         "code" : "15"
+      },
+      {
+         "value" : "Agilent Human Genome 105A",
+         "uri" : null,
+         "code" : "16"
+      },
+      {
+         "value" : "Agilent Human CNV Association 2x105K",
+         "uri" : null,
+         "code" : "17"
+      },
+      {
+         "value" : "Agilent Human Genome 44K",
+         "uri" : null,
+         "code" : "18"
+      },
+      {
+         "value" : "Agilent Human CGH 1x1M",
+         "uri" : null,
+         "code" : "19"
+      },
+      {
+         "value" : "Agilent Human CGH 2x400K",
+         "uri" : null,
+         "code" : "20"
+      },
+      {
+         "value" : "Agilent Human CGH 4x180K",
+         "uri" : null,
+         "code" : "21"
+      },
+      {
+         "value" : "Agilent Human CGH 8x60K",
+         "uri" : null,
+         "code" : "22"
+      },
+      {
+         "value" : "Agilent Human CNV 2x400K",
+         "uri" : null,
+         "code" : "23"
+      },
+      {
+         "value" : "Agilent Human miRNA Microarray Kit (v2)",
+         "uri" : null,
+         "code" : "24"
+      },
+      {
+         "value" : "Agilent Human CpG Island Microarray Kit",
+         "uri" : null,
+         "code" : "25"
+      },
+      {
+         "value" : "Agilent Human Promoter ChIP-on-chip Microarray Set",
+         "uri" : null,
+         "code" : "26"
+      },
+      {
+         "value" : "Agilent Human SpliceArray",
+         "uri" : null,
+         "code" : "27"
+      },
+      {
+         "value" : "Illumina human1m-duo",
+         "uri" : null,
+         "code" : "28"
+      },
+      {
+         "value" : "Illumina human660w-quad",
+         "uri" : null,
+         "code" : "29"
+      },
+      {
+         "value" : "Illumina humancytosnp-12",
+         "uri" : null,
+         "code" : "30"
+      },
+      {
+         "value" : "Illumina human510s-duo",
+         "uri" : null,
+         "code" : "31"
+      },
+      {
+         "value" : "Illumina humanmethylation27",
+         "uri" : null,
+         "code" : "32"
+      },
+      {
+         "value" : "Illumina goldengate methylation",
+         "uri" : null,
+         "code" : "33"
+      },
+      {
+         "value" : "Illumina HumanHT-12 v4.0 beadchip",
+         "uri" : null,
+         "code" : "34"
+      },
+      {
+         "value" : "Illumina HumanWG-6 v3.0 beadchip",
+         "uri" : null,
+         "code" : "35"
+      },
+      {
+         "value" : "Illumina HumanRef-8 v3.0 beadchip",
+         "uri" : null,
+         "code" : "36"
+      },
+      {
+         "value" : "Illumina microRNA Expression Profiling Panel",
+         "uri" : null,
+         "code" : "37"
+      },
+      {
+         "value" : "Illumina humanht-16",
+         "uri" : null,
+         "code" : "38"
+      },
+      {
+         "value" : "Illumina humanht-17",
+         "uri" : null,
+         "code" : "39"
+      },
+      {
+         "value" : "Nimblegen Human CGH 3x720 Whole-Genome v3.0 Array",
+         "uri" : null,
+         "code" : "40"
+      },
+      {
+         "value" : "Nimblegen Human CGH 2.1M Whole-Genome v2.0D Array",
+         "uri" : null,
+         "code" : "41"
+      },
+      {
+         "value" : "Nimblegen Gene Expression 385K",
+         "uri" : null,
+         "code" : "42"
+      },
+      {
+         "value" : "Nimblegen Gene Expression 4x72K",
+         "uri" : null,
+         "code" : "43"
+      },
+      {
+         "value" : "Nimblegen Gene Expression 12x135K",
+         "uri" : null,
+         "code" : "44"
+      },
+      {
+         "value" : "Nimblegen Human Methylation 2.1M Whole-Genome sets",
+         "uri" : null,
+         "code" : "45"
+      },
+      {
+         "value" : "Nimblegen Human Methylation 385K Whole-Genome sets",
+         "uri" : null,
+         "code" : "46"
+      },
+      {
+         "value" : "Nimblegen CGS",
+         "uri" : null,
+         "code" : "47"
+      },
+      {
+         "value" : "Illumina Human1M OmniQuad chip",
+         "uri" : null,
+         "code" : "48"
+      },
+      {
+         "value" : "PCR and capillary sequencing",
+         "uri" : null,
+         "code" : "49"
+      },
+      {
+         "value" : "Custom-designed gene expression array",
+         "uri" : null,
+         "code" : "50"
+      },
+      {
+         "value" : "Affymetrix HT Human Genome U133A Array Plate Set",
+         "uri" : null,
+         "code" : "51"
+      },
+      {
+         "value" : "Agilent 244K Custom Gene Expression G4502A-07-1",
+         "uri" : null,
+         "code" : "52"
+      },
+      {
+         "value" : "Agilent 244K Custom Gene Expression G4502A-07-2",
+         "uri" : null,
+         "code" : "53"
+      },
+      {
+         "value" : "Agilent 244K Custom Gene Expression G4502A-07-3",
+         "uri" : null,
+         "code" : "54"
+      },
+      {
+         "value" : "Agilent Human Genome CGH Custom Microaary 2x415K",
+         "uri" : null,
+         "code" : "55"
+      },
+      {
+         "value" : "Affymetrix Human U133 Plus PM",
+         "uri" : null,
+         "code" : "56"
+      },
+      {
+         "value" : "Affymetrix Human U133 Plus 2.0",
+         "uri" : null,
+         "code" : "57"
+      },
+      {
+         "value" : "Affymetrix Human Exon 1.0 ST",
+         "uri" : null,
+         "code" : "58"
+      },
+      {
+         "value" : "Almac Human CRC",
+         "uri" : null,
+         "code" : "59"
+      },
+      {
+         "value" : "Illumina HiSeq",
+         "uri" : null,
+         "code" : "60"
+      },
+      {
+         "value" : "Affymetrix Human MIP 330K",
+         "uri" : null,
+         "code" : "61"
+      },
+      {
+         "value" : "Affymetrix Human Gene 1.0 ST",
+         "uri" : null,
+         "code" : "62"
+      },
+      {
+         "value" : "Illumina Human Omni1-Quad beadchip",
+         "uri" : null,
+         "code" : "63"
+      },
+      {
+         "value" : "Sequenom MassARRAY",
+         "uri" : null,
+         "code" : "64"
+      },
+      {
+         "value" : "Custom-designed cDNA array",
+         "uri" : null,
+         "code" : "65"
+      },
+      {
+         "value" : "Illumina HumanHap550",
+         "uri" : null,
+         "code" : "66"
+      },
+      {
+         "value" : "Ion Torrent PGM",
+         "uri" : null,
+         "code" : "67"
+      },
+      {
+         "value" : "Illumina GoldenGate Methylation Cancer Panel I",
+         "uri" : null,
+         "code" : "68"
+      },
+      {
+         "value" : "Illumina Infinium HumanMethylation450",
+         "uri" : null,
+         "code" : "69"
+      },
+      {
+         "value" : "Agilent 8 x 15K Human miRNA-specific microarray",
+         "uri" : null,
+         "code" : "70"
+      },
+      {
+         "value" : "M.D. Anderson Reverse Phase Protein Array Core",
+         "uri" : null,
+         "code" : "71"
+      },
+      {
+         "value" : "Microsatellite Instability Analysis",
+         "uri" : null,
+         "code" : "72"
+      },
+      {
+         "value" : "Agilent 244K Custom Gene Expression G4502A-07",
+         "uri" : null,
+         "code" : "73"
+      },
+      {
+         "value" : "Illumina HumanCNV370-Duo v1.0 BeadChip",
+         "uri" : null,
+         "code" : "74"
+      },
+      {
+         "value" : "Illumina HumanOmniExpress BeadChip",
+         "uri" : null,
+         "code" : "75"
+      }
+   ],
+   "name" : "GLOBAL.0.platform.v1",
+   "label" : "Analysis and Validation Platforms"
+}

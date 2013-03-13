@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : true,
+   "name" : "variation_type",
+   "label" : "Type of variation",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "sgv_p.0.variation_type.v1"
+         }
+      }
+   ]
+}

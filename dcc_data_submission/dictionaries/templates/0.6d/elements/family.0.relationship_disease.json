@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "relationship_disease",
+   "label" : "Disease name",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

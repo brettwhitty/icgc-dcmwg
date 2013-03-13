@@ -1,0 +1,8 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "quality_score",
+   "label" : "Quality score for the mutation/variation call",
+   "valueType" : "INTEGER",
+   "restrictions" : []
+}

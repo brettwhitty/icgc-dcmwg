@@ -1,0 +1,43 @@
+{
+   "created" : 1347981138657,
+   "lastUpdate" : 1347981138657,
+   "terms" : [
+      {
+         "value" : "GRCh37",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "NCBI36",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "GRCh37.p1",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "GRCh37.p2",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "GRCh37.p3",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "GRCh37.p4",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "GRCh37.p5",
+         "uri" : null,
+         "code" : "7"
+      }
+   ],
+   "name" : "GLOBAL.0.assembly_version.v1",
+   "label" : null
+}

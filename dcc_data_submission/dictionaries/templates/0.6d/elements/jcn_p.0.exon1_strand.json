@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "exon1_strand",
+   "label" : "Chromsome strand of the 5' exon",
+   "valueType" : "INTEGER",
+   "restrictions" : [
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.strand.v1"
+         }
+      }
+   ]
+}

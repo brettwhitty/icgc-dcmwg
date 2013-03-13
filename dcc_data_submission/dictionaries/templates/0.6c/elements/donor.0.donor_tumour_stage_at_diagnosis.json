@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "donor_tumour_stage_at_diagnosis",
+   "label" : "Stage at diagnosis using indicated staging system. Note that this is supplementary to specimen's pathological staging. ",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

@@ -1,0 +1,8 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "fold_change",
+   "label" : "Expressed fold change if differential expression is measured",
+   "valueType" : "DECIMAL",
+   "restrictions" : []
+}

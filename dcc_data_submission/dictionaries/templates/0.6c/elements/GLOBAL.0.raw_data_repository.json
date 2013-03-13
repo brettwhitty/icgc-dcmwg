@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "raw_data_repository",
+   "label" : "Public repository where raw data is submitted",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.raw_data_repository.v1"
+         }
+      }
+   ]
+}

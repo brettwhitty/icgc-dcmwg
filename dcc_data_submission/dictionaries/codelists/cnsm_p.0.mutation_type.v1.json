@@ -1,0 +1,38 @@
+{
+   "created" : 1347981138659,
+   "lastUpdate" : 1347981138659,
+   "terms" : [
+      {
+         "value" : "gain",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "loss",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "copy neutral LOH",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "copy neutral",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "hemizygous del LOH",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "amp LOH",
+         "uri" : null,
+         "code" : "6"
+      }
+   ],
+   "name" : "cnsm_p.0.mutation_type.v1",
+   "label" : null
+}

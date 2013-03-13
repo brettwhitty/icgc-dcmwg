@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "is_fusion_gene",
+   "label" : "Indicate if the function is the result of a fusion gene",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.yes_no.v1"
+         }
+      }
+   ]
+}

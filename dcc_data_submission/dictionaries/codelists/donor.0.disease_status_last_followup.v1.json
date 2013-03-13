@@ -1,0 +1,33 @@
+{
+   "created" : 1347981138658,
+   "lastUpdate" : 1347981138658,
+   "terms" : [
+      {
+         "value" : "complete remission",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "partial remission",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "progression",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "relapse",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "stable",
+         "uri" : null,
+         "code" : "5"
+      }
+   ],
+   "name" : "donor.0.disease_status_last_followup.v1",
+   "label" : null
+}

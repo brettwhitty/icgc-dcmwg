@@ -1,0 +1,15 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "specimen_interval",
+   "label" : "Interval between primary diagnosis and specimen acquisition, in days",
+   "valueType" : "INTEGER",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

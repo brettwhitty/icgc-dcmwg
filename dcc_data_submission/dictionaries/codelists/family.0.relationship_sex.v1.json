@@ -1,0 +1,18 @@
+{
+   "created" : 1347981138662,
+   "lastUpdate" : 1347981138662,
+   "terms" : [
+      {
+         "value" : "male",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "female",
+         "uri" : null,
+         "code" : "2"
+      }
+   ],
+   "name" : "family.0.relationship_sex.v1",
+   "label" : null
+}

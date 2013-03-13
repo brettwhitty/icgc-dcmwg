@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "protein_domain_affected",
+   "label" : "Protein domain containing the mutation/variation.  Use Pfam accession.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

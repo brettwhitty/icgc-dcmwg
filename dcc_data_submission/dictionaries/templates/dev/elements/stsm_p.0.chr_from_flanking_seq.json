@@ -1,0 +1,8 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "chr_from_flanking_seq",
+   "label" : "Flanking sequences that are 200bp upstream and 200bp downstream to the chr_from_bkpt position.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

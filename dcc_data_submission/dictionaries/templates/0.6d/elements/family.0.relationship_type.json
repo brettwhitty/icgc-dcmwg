@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "relationship_type",
+   "label" : "Relationship to the donor",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "family.0.relationship_type.v1"
+         }
+      }
+   ]
+}

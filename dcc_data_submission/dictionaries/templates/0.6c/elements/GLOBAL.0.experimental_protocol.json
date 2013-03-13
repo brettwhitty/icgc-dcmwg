@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "experimental_protocol",
+   "label" : "Name of experimental protocol and URL to written protocol",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

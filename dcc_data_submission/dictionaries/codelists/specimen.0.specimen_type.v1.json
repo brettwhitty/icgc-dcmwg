@@ -1,0 +1,63 @@
+{
+   "created" : 1347981138658,
+   "lastUpdate" : 1347981138658,
+   "terms" : [
+      {
+         "value" : "primary tumour",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "tumour local recurrence",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "tumour metastasis to local lymph node",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "tumour metastasis to distant location",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "peripheral blood",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "bone marrow",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "lymph node",
+         "uri" : null,
+         "code" : "7"
+      },
+      {
+         "value" : "normal control (tissue adjacent to primary)",
+         "uri" : null,
+         "code" : "8"
+      },
+      {
+         "value" : "normal control (blood)",
+         "uri" : null,
+         "code" : "9"
+      },
+      {
+         "value" : "normal control (other)",
+         "uri" : null,
+         "code" : "10"
+      },
+      {
+         "value" : "tumour (other)",
+         "uri" : null,
+         "code" : "11"
+      }
+   ],
+   "name" : "specimen.0.specimen_type.v1",
+   "label" : null
+}

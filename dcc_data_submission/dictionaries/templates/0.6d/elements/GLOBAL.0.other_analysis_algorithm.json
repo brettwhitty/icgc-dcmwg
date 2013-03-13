@@ -1,0 +1,8 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "other_analysis_algorithm",
+   "label" : "Names of other analysis algorithms.  Separate multiple algorithms by commas.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

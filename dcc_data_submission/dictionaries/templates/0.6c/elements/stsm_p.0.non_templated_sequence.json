@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "non_templated_sequence",
+   "label" : "If non-templated DNA is inserted, provide sequence",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

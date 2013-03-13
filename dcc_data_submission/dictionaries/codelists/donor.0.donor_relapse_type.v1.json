@@ -1,0 +1,23 @@
+{
+   "created" : 1347981138659,
+   "lastUpdate" : 1347981138659,
+   "terms" : [
+      {
+         "value" : "local recurrence",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "distant recurrence/metastasis",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "progression (liquid tumours)",
+         "uri" : null,
+         "code" : "3"
+      }
+   ],
+   "name" : "donor.0.donor_relapse_type.v1",
+   "label" : null
+}

@@ -1,0 +1,15 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "exposure_intensity",
+   "label" : "Extent of the exposure. This is a controlled vocabulary term to be developed by the submitting group. Units to be specified by submitting group.",
+   "valueType" : "INTEGER",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

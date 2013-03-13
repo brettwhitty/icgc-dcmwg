@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "procedure_type",
+   "label" : "Controlled vocabulary description of the procedure type. Vocabulary can be extended by disease-specific projects. Prefix extensions with 3-digit center code, e.g. 008.1 Beijing Cancer Hospital, fine needle aspiration of primary",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "surgery.0.procedure_type.v1"
+         }
+      }
+   ]
+}

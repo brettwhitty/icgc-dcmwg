@@ -1,0 +1,67 @@
+{
+   "pattern" : "^meth__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__p__\\d+__(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.analysis_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.analyzed_sample_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.methylated_fragment_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_start.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_end.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.chromosome_strand.json"
+      },
+      {
+         "_include" : "elements/meth_p.0.beta_value.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.quality_score.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.probability.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.verification_status.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.verification_platform.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "name" : "meth_p",
+   "relations" : [
+      {
+         "bidirectional" : true,
+         "optionals" : [],
+         "fields" : [
+            "analysis_id",
+            "analyzed_sample_id"
+         ],
+         "other" : "meth_m",
+         "otherFields" : [
+            "analysis_id",
+            "analyzed_sample_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [
+      "analysis_id",
+      "analyzed_sample_id",
+      "methylated_fragment_id"
+   ],
+   "role" : "SUBMISSION"
+}

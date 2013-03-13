@@ -1,0 +1,59 @@
+{
+   "pattern" : "^ssm__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__s__\\d+__(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.analysis_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.analyzed_sample_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.mutation_id.json"
+      },
+      {
+         "_include" : "elements/ssm_s.0.consequence_type.json"
+      },
+      {
+         "_include" : "elements/ssm_s.0.aa_mutation.json"
+      },
+      {
+         "_include" : "elements/ssm_s.0.cds_mutation.json"
+      },
+      {
+         "_include" : "elements/ssm_s.0.protein_domain_affected.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.gene_affected.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.transcript_affected.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.gene_build_version.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "name" : "ssm_s",
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "analysis_id",
+            "analyzed_sample_id",
+            "mutation_id"
+         ],
+         "other" : "ssm_p",
+         "otherFields" : [
+            "analysis_id",
+            "analyzed_sample_id",
+            "mutation_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [],
+   "role" : "SUBMISSION"
+}

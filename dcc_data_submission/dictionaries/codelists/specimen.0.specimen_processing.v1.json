@@ -1,0 +1,53 @@
+{
+   "created" : 1347981138662,
+   "lastUpdate" : 1347981138662,
+   "terms" : [
+      {
+         "value" : "cryopreservation in liquid nitrogen (dead tissue)",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "cryopreservation in dry ice (dead tissue)",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "cryopreservation of live cells in liquid nitrogen",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "cryopreservation, other",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "formalin fixed, unbuffered",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "formalin fixed, buffered",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "formalin fixed & paraffin embedded",
+         "uri" : null,
+         "code" : "7"
+      },
+      {
+         "value" : "fresh",
+         "uri" : null,
+         "code" : "8"
+      },
+      {
+         "value" : "other technique",
+         "uri" : null,
+         "code" : "9"
+      }
+   ],
+   "name" : "specimen.0.specimen_processing.v1",
+   "label" : null
+}

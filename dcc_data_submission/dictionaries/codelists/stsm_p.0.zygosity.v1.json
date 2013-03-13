@@ -1,0 +1,28 @@
+{
+   "created" : 1347981138661,
+   "lastUpdate" : 1347981138661,
+   "terms" : [
+      {
+         "value" : "homozygous",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "heterozygous",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "hemizygous",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "nullizygous",
+         "uri" : null,
+         "code" : "4"
+      }
+   ],
+   "name" : "stsm_p.0.zygosity.v1",
+   "label" : null
+}

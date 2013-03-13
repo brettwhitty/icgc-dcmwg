@@ -1,0 +1,28 @@
+{
+   "created" : 1347981138657,
+   "lastUpdate" : 1347981138657,
+   "terms" : [
+      {
+         "value" : "complete response",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "partial response",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "disease progression",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "stable disease",
+         "uri" : null,
+         "code" : "4"
+      }
+   ],
+   "name" : "therapy.0.therapy_response.v1",
+   "label" : null
+}

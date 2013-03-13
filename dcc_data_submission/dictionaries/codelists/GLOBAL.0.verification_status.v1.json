@@ -1,0 +1,23 @@
+{
+   "created" : 1347981138664,
+   "lastUpdate" : 1347981138664,
+   "terms" : [
+      {
+         "value" : "validated",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "not tested",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "not valid",
+         "uri" : null,
+         "code" : "3"
+      }
+   ],
+   "name" : "GLOBAL.0.verification_status.v1",
+   "label" : null
+}

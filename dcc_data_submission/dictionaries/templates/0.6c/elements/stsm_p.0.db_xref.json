@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "db_xref",
+   "label" : "Value code of cross-reference database:ID of the mutation in the cross-reference database.  Separate multiple entries by commas.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

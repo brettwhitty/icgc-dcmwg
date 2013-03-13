@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "donor_tumour_staging_system_at_diagnosis",
+   "label" : "Clinical staging system used at time of diagnosis, if determined. Note that this is supplementary to specimen's pathological staging.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

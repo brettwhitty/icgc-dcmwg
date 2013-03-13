@@ -1,0 +1,23 @@
+{
+   "created" : 1347981138659,
+   "lastUpdate" : 1347981138659,
+   "terms" : [
+      {
+         "value" : "ambiguous",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "absent",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "present",
+         "uri" : null,
+         "code" : "3"
+      }
+   ],
+   "name" : "biomarker.0.biomarker_positive.v1",
+   "label" : null
+}

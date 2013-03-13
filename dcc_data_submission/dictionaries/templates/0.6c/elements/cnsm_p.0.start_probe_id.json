@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "start_probe_id",
+   "label" : "Probe id containing the chromosome_start if array platform was used",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

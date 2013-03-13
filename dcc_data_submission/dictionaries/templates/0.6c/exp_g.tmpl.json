@@ -1,0 +1,81 @@
+{
+   "pattern" : "^exp__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__g__\\d+__(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/GLOBAL.0.analysis_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.analyzed_sample_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.gene_stable_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.gene_chromosome.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.gene_strand.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.gene_start.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.gene_end.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.normalized_read_count.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.raw_read_count.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.normalized_expression_level.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.fold_change.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.reference_sample_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.quality_score.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.probability.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.is_annotated.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.verification_status.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.verification_platform.json"
+      },
+      {
+         "_include" : "elements/exp_g.0.probeset_id.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "name" : "exp_g",
+   "relations" : [
+      {
+         "bidirectional" : true,
+         "optionals" : [],
+         "fields" : [
+            "analysis_id",
+            "sample_id"
+         ],
+         "other" : "exp_m",
+         "otherFields" : [
+            "analysis_id",
+            "sample_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [],
+   "role" : "SUBMISSION"
+}

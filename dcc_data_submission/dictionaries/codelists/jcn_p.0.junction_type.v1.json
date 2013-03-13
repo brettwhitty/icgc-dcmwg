@@ -1,0 +1,23 @@
+{
+   "created" : 1347981138661,
+   "lastUpdate" : 1347981138661,
+   "terms" : [
+      {
+         "value" : "canonical",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "non-canonical",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "U12",
+         "uri" : null,
+         "code" : "3"
+      }
+   ],
+   "name" : "jcn_p.0.junction_type.v1",
+   "label" : null
+}

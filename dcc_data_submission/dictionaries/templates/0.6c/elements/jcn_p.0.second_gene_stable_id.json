@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "second_gene_stable_id",
+   "label" : "In the case of a fusion gene, provide the Stable ID of the gene containing the 3' exon at the junction.  For annotated genes, use Ensembl gene ID.  For putative and novel genes, use assemblyBuild_chr_start_end where assemblyBuild can be hg18 or hg19.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

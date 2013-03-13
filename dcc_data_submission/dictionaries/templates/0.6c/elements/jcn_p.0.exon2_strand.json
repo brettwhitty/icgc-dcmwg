@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "exon2_strand",
+   "label" : "Chromsome strand of the 3' exon",
+   "valueType" : "INTEGER",
+   "restrictions" : [
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.strand.v1"
+         }
+      }
+   ]
+}

@@ -1,0 +1,48 @@
+{
+   "created" : 1347981138637,
+   "lastUpdate" : 1347981138637,
+   "terms" : [
+      {
+         "value" : "no treatment",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "chemotherapy",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "radiation therapy",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "combined chemo+radiation therapy",
+         "uri" : null,
+         "code" : "4"
+      },
+      {
+         "value" : "immunotherapy",
+         "uri" : null,
+         "code" : "5"
+      },
+      {
+         "value" : "combined chemo+immunotherapy",
+         "uri" : null,
+         "code" : "6"
+      },
+      {
+         "value" : "surgery",
+         "uri" : null,
+         "code" : "7"
+      },
+      {
+         "value" : "other therapy",
+         "uri" : null,
+         "code" : "8"
+      }
+   ],
+   "name" : "specimen.0.specimen_donor_treatment_type.v1",
+   "label" : null
+}

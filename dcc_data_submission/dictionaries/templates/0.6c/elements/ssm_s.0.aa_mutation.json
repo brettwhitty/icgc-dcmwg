@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "aa_mutation",
+   "label" : "Changes at amino acid level. Indicate the reference aa, position and mutation aa.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}
