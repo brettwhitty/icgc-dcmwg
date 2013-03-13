@@ -1,5 +1,5 @@
 {
-   "pattern" : "^meth__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__m__\\d+__(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "pattern" : "^meth__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__m__\\w+\\.txt(.lzo)?(.gz)?(.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/GLOBAL.0.analysis_id.json"
