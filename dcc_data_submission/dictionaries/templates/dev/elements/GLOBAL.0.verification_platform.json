@@ -2,7 +2,7 @@
    "summaryType" : "FREQUENCY",
    "controlled" : false,
    "name" : "verification_platform",
-   "label" : "Platform or technology used in validation",
+   "label" : "Platform or technology used in verification",
    "valueType" : "TEXT",
    "restrictions" : [
       {

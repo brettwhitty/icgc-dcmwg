@@ -2,7 +2,7 @@
    "summaryType" : "FREQUENCY",
    "controlled" : false,
    "name" : "verification_status",
-   "label" : "Indicate if the mutation/variation has been validated",
+   "label" : "Indicate if the mutation/variation has been verified",
    "valueType" : "TEXT",
    "restrictions" : [
       {
