@@ -39,9 +39,6 @@
       },
       {
          "_include" : "elements/GLOBAL.0.note.json"
-      },
-      {
-         "_include" : "elements/GLOBAL.0.donor_id.json"
       }
    ],
    "name" : "meth_m",

@@ -32,6 +32,9 @@
          "_include" : "elements/GLOBAL.0.other_analysis_algorithm.json"
       },
       {
+         "_include" : "elements/GLOBAL.0.sequencing_strategy.json"
+      },
+      {
          "_include" : "elements/GLOBAL.0.seq_coverage.json"
       },
       {
@@ -42,9 +45,6 @@
       },
       {
          "_include" : "elements/GLOBAL.0.note.json"
-      },
-      {
-         "_include" : "elements/GLOBAL.0.donor_id.json"
       }
    ],
    "name" : "cnsm_m",
