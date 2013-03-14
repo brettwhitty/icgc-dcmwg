@@ -43,8 +43,8 @@ unless (defined($output) && -d $output) {
     die "Must provide output dir with --output";
 }
 
-unless ($input =~ /\.tmpl\.json$/) {
-    die "Expecting template files to have suffix '.tmpl.json'";
+unless ($input =~ /\.\d+\.tmpl\.json$/) {
+    die "Expecting template files to have suffix '.#.tmpl.json'";
 }
 
 $input = abs_path($input);
