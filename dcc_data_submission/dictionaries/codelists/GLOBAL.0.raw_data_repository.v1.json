@@ -4,30 +4,30 @@
    "terms" : [
       {
          "value" : "EGA",
-         "uri" : null,
+         "uri" : "https://www.ebi.ac.uk/ega/",
          "code" : "1"
       },
       {
          "value" : "dbSNP",
-         "uri" : null,
+         "uri" : "https://www.ncbi.nlm.nih.gov/projects/SNP/",
          "code" : "2"
       },
       {
          "value" : "TCGA",
-         "uri" : null,
+         "uri" : "https://tcga-data.nci.nih.gov/tcga/",
          "code" : "3"
       },
       {
          "value" : "CGHub",
-         "uri" : null,
+         "uri" : "https://cghub.ucsc.edu/",
          "code" : "4"
       },
       {
          "value" : "GEO",
-         "uri" : null,
+         "uri" : "https://www.ncbi.nlm.nih.gov/geo/",
          "code" : "5"
       }
    ],
    "name" : "GLOBAL.0.raw_data_repository.v1",
-   "label" : null
+   "label" : "Public repositories for raw data deposit recognized by ICGC"
 }
