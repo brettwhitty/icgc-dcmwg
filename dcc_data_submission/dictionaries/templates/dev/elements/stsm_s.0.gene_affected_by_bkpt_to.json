@@ -2,7 +2,7 @@
    "summaryType" : null,
    "controlled" : false,
    "name" : "gene_affected_by_bkpt_to",
-   "label" : "Gene(s) affected by the breakpoints. Use Ensembl gene id. Separate multiple genes with vertical bars in the form of geneA|geneB|geneC. If both breakpoints affect genes, then use "|" to separate them. If no gene is affected, use -888 (not applicable).",
+   "label" : "Gene(s) affected by the breakpoints. Use Ensembl gene id. Separate multiple genes with vertical bars in the form of geneA|geneB|geneC. If both breakpoints affect genes, then use \"|\" to separate them. If no gene is affected, use -888 (not applicable).",
    "valueType" : "TEXT",
    "restrictions" : []
 }
