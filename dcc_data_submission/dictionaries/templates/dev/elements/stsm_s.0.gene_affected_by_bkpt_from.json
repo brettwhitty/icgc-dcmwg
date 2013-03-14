@@ -2,7 +2,7 @@
    "summaryType" : null,
    "controlled" : false,
    "name" : "gene_affected_by_bkpt_from",
-   "label" : null,
+   "label" : "Transcript(s) affected by the breakpoints. Use Ensembl transcript id. Separate multiple transcripts from the same gene with commas, and separate transcripts from different genes with vertical bars. e.g.: transcriptA1,transcriptA2|transcriptB1|transcriptC1",
    "valueType" : "TEXT",
    "restrictions" : []
 }
