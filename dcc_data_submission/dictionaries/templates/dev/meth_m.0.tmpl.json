@@ -41,7 +41,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "meth_m",
    "relations" : [
       {
          "bidirectional" : false,
@@ -66,10 +65,11 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "meth_m",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id"
    ],
+   "label" : "DNA Methylation (meth) - Analysis Metadata File (m)",
    "role" : "SUBMISSION"
 }

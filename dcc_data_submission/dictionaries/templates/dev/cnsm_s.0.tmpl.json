@@ -23,7 +23,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "cnsm_s",
    "relations" : [
       {
          "bidirectional" : false,
@@ -41,7 +40,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "cnsm_s",
    "uniqueFields" : [],
+   "label" : "Copy Number Somatic Mutations (cnsm) - Secondary Analysis File (s)",
    "role" : "SUBMISSION"
 }

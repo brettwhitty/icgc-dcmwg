@@ -23,7 +23,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "pexp_m",
    "relations" : [
       {
          "bidirectional" : false,
@@ -37,10 +36,11 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "pexp_m",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id"
    ],
+   "label" : "Protein Expression (pexp) - Analysis Metadata File (m)",
    "role" : "SUBMISSION"
 }

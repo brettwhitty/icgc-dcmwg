@@ -83,7 +83,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "jcn_p",
    "relations" : [
       {
          "bidirectional" : true,
@@ -99,7 +98,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "jcn_p",
    "uniqueFields" : [],
+   "label" : "Splice Variation (jcn) - Primary Analysis File (p)",
    "role" : "SUBMISSION"
 }

@@ -53,11 +53,11 @@
          "_include" : "elements/donor.0.donor_notes.json"
       }
    ],
-   "name" : "donor",
    "relations" : [],
-   "label" : null,
+   "name" : "donor",
    "uniqueFields" : [
       "donor_id"
    ],
+   "label" : "Donor Data File (donor)",
    "role" : "SUBMISSION"
 }

@@ -20,7 +20,6 @@
          "_include" : "elements/GLOBAL.0.specimen_id.json"
       }
    ],
-   "name" : "surgery",
    "relations" : [
       {
          "bidirectional" : false,
@@ -49,7 +48,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "surgery",
    "uniqueFields" : [],
+   "label" : "Donor Surgery (surgery)",
    "role" : "SUBMISSION"
 }

@@ -47,7 +47,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "jcn_m",
    "relations" : [
       {
          "bidirectional" : false,
@@ -61,10 +60,11 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "jcn_m",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id"
    ],
+   "label" : "Splice Variation (jcn) - Analysis Metadata File (m)",
    "role" : "SUBMISSION"
 }

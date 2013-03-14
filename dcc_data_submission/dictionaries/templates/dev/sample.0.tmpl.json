@@ -20,7 +20,6 @@
          "_include" : "elements/sample.0.analyzed_sample_notes.json"
       }
    ],
-   "name" : "sample",
    "relations" : [
       {
          "bidirectional" : true,
@@ -34,9 +33,10 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "sample",
    "uniqueFields" : [
       "analyzed_sample_id"
    ],
+   "label" : "Analyzed Sample Data File (sample)",
    "role" : "SUBMISSION"
 }

@@ -62,7 +62,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "cnsm_p",
    "relations" : [
       {
          "bidirectional" : true,
@@ -78,11 +77,12 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "cnsm_p",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id",
       "mutation_id"
    ],
+   "label" : "Copy Number Somatic Mutations (cnsm) - Primary Analysis File (p)",
    "role" : "SUBMISSION"
 }

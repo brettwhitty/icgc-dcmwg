@@ -35,7 +35,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "ssm_s",
    "relations" : [
       {
          "bidirectional" : false,
@@ -53,7 +52,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "ssm_s",
    "uniqueFields" : [],
+   "label" : "Simple Somatic Mutations (ssm) - Secondary Analysis File (s)",
    "role" : "SUBMISSION"
 }

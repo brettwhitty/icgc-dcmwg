@@ -59,7 +59,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "exp_g",
    "relations" : [
       {
          "bidirectional" : true,
@@ -75,7 +74,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "exp_g",
    "uniqueFields" : [],
+   "label" : "Gene Expression (exp) - Primary Analysis File (g)",
    "role" : "SUBMISSION"
 }

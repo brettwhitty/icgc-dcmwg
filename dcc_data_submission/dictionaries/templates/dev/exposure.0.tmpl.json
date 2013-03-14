@@ -14,7 +14,6 @@
          "_include" : "elements/exposure.0.exposure_notes.json"
       }
    ],
-   "name" : "exposure",
    "relations" : [
       {
          "bidirectional" : false,
@@ -28,7 +27,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "exposure",
    "uniqueFields" : [],
+   "label" : "Donor Exposure (exposure)",
    "role" : "SUBMISSION"
 }

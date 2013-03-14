@@ -71,7 +71,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "ssm_p",
    "relations" : [
       {
          "bidirectional" : true,
@@ -87,11 +86,12 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "ssm_p",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id",
       "mutation_id"
    ],
+   "label" : "Simple Somatic Mutations (ssm) - Primary Analysis File (p)",
    "role" : "SUBMISSION"
 }

@@ -23,7 +23,6 @@
          "_include" : "elements/family.0.relationship_disease.json"
       }
    ],
-   "name" : "family",
    "relations" : [
       {
          "bidirectional" : false,
@@ -37,7 +36,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "family",
    "uniqueFields" : [],
+   "label" : "Donor Family (family)",
    "role" : "SUBMISSION"
 }

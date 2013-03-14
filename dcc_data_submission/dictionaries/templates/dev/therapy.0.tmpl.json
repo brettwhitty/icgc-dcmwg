@@ -20,7 +20,6 @@
          "_include" : "elements/therapy.0.therapy_notes.json"
       }
    ],
-   "name" : "therapy",
    "relations" : [
       {
          "bidirectional" : false,
@@ -34,7 +33,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "therapy",
    "uniqueFields" : [],
+   "label" : "Donor Therapy (therapy)",
    "role" : "SUBMISSION"
 }

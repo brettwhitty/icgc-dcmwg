@@ -47,7 +47,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "mirna_m",
    "relations" : [
       {
          "bidirectional" : false,
@@ -61,10 +60,11 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "mirna_m",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id"
    ],
+   "label" : "miRNA Expression (mirna) - Analysis Metadata File (m)",
    "role" : "SUBMISSION"
 }

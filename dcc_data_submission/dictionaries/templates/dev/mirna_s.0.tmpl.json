@@ -23,7 +23,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "mirna_s",
    "relations" : [
       {
          "bidirectional" : false,
@@ -37,7 +36,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "mirna_s",
    "uniqueFields" : [],
+   "label" : "miRNA Expression (mirna) - Secondary Analysis File (s)",
    "role" : "SUBMISSION"
 }

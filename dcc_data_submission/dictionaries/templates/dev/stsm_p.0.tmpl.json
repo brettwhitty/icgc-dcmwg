@@ -83,7 +83,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "stsm_p",
    "relations" : [
       {
          "bidirectional" : true,
@@ -99,12 +98,13 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "stsm_p",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id",
       "placement",
       "sv_id"
    ],
+   "label" : "Structural Somatic Mutations (stsm) - Primary Analysis File (p)",
    "role" : "SUBMISSION"
 }

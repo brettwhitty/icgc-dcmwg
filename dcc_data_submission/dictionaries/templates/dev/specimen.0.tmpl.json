@@ -74,7 +74,6 @@
          "_include" : "elements/specimen.0.specimen_notes.json"
       }
    ],
-   "name" : "specimen",
    "relations" : [
       {
          "bidirectional" : true,
@@ -88,9 +87,10 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "specimen",
    "uniqueFields" : [
       "specimen_id"
    ],
+   "label" : "Specimen Data File (specimen)",
    "role" : "SUBMISSION"
 }

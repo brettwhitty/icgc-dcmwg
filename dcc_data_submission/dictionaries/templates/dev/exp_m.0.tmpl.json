@@ -47,7 +47,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "exp_m",
    "relations" : [
       {
          "bidirectional" : false,
@@ -61,10 +60,11 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "exp_m",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id"
    ],
+   "label" : "Gene Expression (exp) - Analysis Metadata File (m)",
    "role" : "SUBMISSION"
 }

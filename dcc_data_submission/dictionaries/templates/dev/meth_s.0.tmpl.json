@@ -20,7 +20,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "meth_s",
    "relations" : [
       {
          "bidirectional" : false,
@@ -38,7 +37,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "meth_s",
    "uniqueFields" : [],
+   "label" : "DNA Methylation (meth) - Secondary Analysis File (s)",
    "role" : "SUBMISSION"
 }

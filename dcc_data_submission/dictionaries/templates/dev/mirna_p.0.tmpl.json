@@ -44,7 +44,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "mirna_p",
    "relations" : [
       {
          "bidirectional" : true,
@@ -60,7 +59,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "mirna_p",
    "uniqueFields" : [],
+   "label" : "miRNA Expression (mirna) - Primary Analysis File (p)",
    "role" : "SUBMISSION"
 }

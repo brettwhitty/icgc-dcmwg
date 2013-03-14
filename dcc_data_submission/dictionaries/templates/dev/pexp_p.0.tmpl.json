@@ -32,7 +32,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "pexp_p",
    "relations" : [
       {
          "bidirectional" : true,
@@ -59,7 +58,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "pexp_p",
    "uniqueFields" : [],
+   "label" : "Protein Expression (pexp) - Primary Analysis File (p)",
    "role" : "SUBMISSION"
 }

@@ -47,7 +47,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "stsm_m",
    "relations" : [
       {
          "bidirectional" : false,
@@ -72,10 +71,11 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "stsm_m",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id"
    ],
+   "label" : "Structural Somatic Mutations (stsm) - Analysis Metadata File (m)",
    "role" : "SUBMISSION"
 }
