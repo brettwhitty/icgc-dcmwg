@@ -1,0 +1,151 @@
+{
+   "terms": [
+      {
+         "value": "WGS",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='WGS']",
+         "code": 1
+      },
+      {
+         "value": "WGA",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='WGA']",
+         "code": 2
+      },
+      {
+         "value": "WXS",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='WXS']",
+         "code": 3
+      },
+      {
+         "value": "RNA-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='RNA-Seq']",
+         "code": 4
+      },
+      {
+         "value": "miRNA-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='miRNA-Seq']",
+         "code": 5
+      },
+      {
+         "value": "ncRNA-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='ncRNA-Seq']",
+         "code": 6
+      },
+      {
+         "value": "WCS",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='WCS']",
+         "code": 7
+      },
+      {
+         "value": "CLONE",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='CLONE']",
+         "code": 8
+      },
+      {
+         "value": "POOLCLONE",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='POOLCLONE']",
+         "code": 9
+      },
+      {
+         "value": "AMPLICON",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='AMPLICON']",
+         "code": 10
+      },
+      {
+         "value": "CLONEEND",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='CLONEEND']",
+         "code": 11
+      },
+      {
+         "value": "FINISHING",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='FINISHING']",
+         "code": 12
+      },
+      {
+         "value": "ChIP-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='ChIP-Seq']",
+         "code": 13
+      },
+      {
+         "value": "MNase-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='MNase-Seq']",
+         "code": 14
+      },
+      {
+         "value": "DNase-Hypersensitivity",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='DNase-Hypersensitivity']",
+         "code": 15
+      },
+      {
+         "value": "Bisulfite-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='Bisulfite-Seq']",
+         "code": 16
+      },
+      {
+         "value": "EST",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='EST']",
+         "code": 17
+      },
+      {
+         "value": "FL-cDNA",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='FL-cDNA']",
+         "code": 18
+      },
+      {
+         "value": "CTS",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='CTS']",
+         "code": 19
+      },
+      {
+         "value": "MRE-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='MRE-Seq']",
+         "code": 20
+      },
+      {
+         "value": "MeDIP-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='MeDIP-Seq']",
+         "code": 21
+      },
+      {
+         "value": "MBD-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='MBD-Seq']",
+         "code": 22
+      },
+      {
+         "value": "Tn-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='Tn-Seq']",
+         "code": 23
+      },
+      {
+         "value": "VALIDATION",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='VALIDATION']",
+         "code": 24
+      },
+      {
+         "value": "FAIRE-seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='FAIRE-seq']",
+         "code": 25
+      },
+      {
+         "value": "SELEX",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='SELEX']",
+         "code": 26
+      },
+      {
+         "value": "RIP-Seq",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='RIP-Seq']",
+         "code": 27
+      },
+      {
+         "value": "ChIA-PET",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='ChIA-PET']",
+         "code": 28
+      },
+      {
+         "value": "OTHER",
+         "uri": "http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-5c/SRA.experiment.xsd?view=co; //xs:element[@name='LIBRARY_STRATEGY']//xs:enumeration[@value='OTHER']",
+         "code": 29
+      }
+   ],
+   "name": "GLOBAL.0.sequencing_strategy.v1",
+   "label": "Sequencing library strategy type; compatible with SRA XML experiment 'LIBRARY_STRATEGY' element"
+}
