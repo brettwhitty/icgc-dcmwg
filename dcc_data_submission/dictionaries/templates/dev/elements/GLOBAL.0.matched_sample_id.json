@@ -2,13 +2,13 @@
    "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "matched_sample_id",
-   "label" : "Unique identifier for the control matched to the tumour sample",
+   "label" : "Unique identifier for the matched sample used in the analysis; must exist in the sample file",
    "valueType" : "TEXT",
    "restrictions" : [
       {
          "type" : "required",
          "config" : {
-            "acceptMissingCode" : false
+            "acceptMissingCode" : true
          }
       }
    ]
