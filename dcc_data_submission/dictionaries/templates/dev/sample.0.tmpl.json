@@ -17,6 +17,12 @@
          "_include" : "elements/sample.0.analyzed_sample_interval.json"
       },
       {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+      },
+      {
          "_include" : "elements/sample.0.analyzed_sample_notes.json"
       }
    ],

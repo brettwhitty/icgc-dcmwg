@@ -50,6 +50,12 @@
          "_include" : "elements/donor.0.donor_interval_of_last_followup.json"
       },
       {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+      },
+      {
          "_include" : "elements/donor.0.donor_notes.json"
       }
    ],

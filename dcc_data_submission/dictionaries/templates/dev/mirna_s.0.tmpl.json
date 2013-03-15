@@ -17,7 +17,13 @@
          "_include" : "elements/GLOBAL.0.chromosome_strand.json"
       },
       {
-         "_include" : "elements/mirna_s.0.xref_mirbase_id.json"
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json",
+         "_extend"  : {
+             "label" : "Cross-reference to miRBase ID (e.g. has-let-7c) if available; use format 'miRBase:ID'. Can supply cross-references to other databases using same 'DB:ID' synatax; use a comma as list delimiter if necessary."
+         }
       },
       {
          "_include" : "elements/GLOBAL.0.note.json"

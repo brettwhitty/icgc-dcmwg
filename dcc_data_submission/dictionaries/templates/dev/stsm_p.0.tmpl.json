@@ -71,13 +71,16 @@
          "_include" : "elements/stsm_p.0.zygosity.json"
       },
       {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+      },
+      {
          "_include" : "elements/GLOBAL.0.verification_status.json"
       },
       {
          "_include" : "elements/GLOBAL.0.verification_platform.json"
-      },
-      {
-         "_include" : "elements/stsm_p.0.db_xref.json"
       },
       {
          "_include" : "elements/GLOBAL.0.note.json"

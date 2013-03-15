@@ -35,6 +35,12 @@
          "_include" : "elements/GLOBAL.0.is_annotated.json"
       },
       {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+      },
+      {
          "_include" : "elements/GLOBAL.0.verification_status.json"
       },
       {

@@ -18,6 +18,12 @@
       },
       {
          "_include" : "elements/GLOBAL.0.specimen_id.json"
+      },
+      {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
       }
    ],
    "relations" : [

@@ -12,8 +12,14 @@
       },
       {
          "_include" : "elements/exposure.0.exposure_notes.json"
+      },
+      {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
       }
-   ],
+  ],
    "relations" : [
       {
          "bidirectional" : false,
