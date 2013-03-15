@@ -16,6 +16,11 @@
          "value" : "not valid",
          "uri" : null,
          "code" : "3"
+      },
+      {
+          "value" : "inconclusive",
+          "uri" : null,
+          "code" : "4"
       }
    ],
    "name" : "GLOBAL.0.verification_status.v1",
