@@ -5,8 +5,8 @@
 #
 #        USAGE:  ./file_template_to_json.pl  
 #
-#  DESCRIPTION:  Processes a dictionary file template with '_include' for data elements to make JSON.
-#
+#  DESCRIPTION:  Processes a dictionary file template with '_include' for data elements to make JSON;
+#                also supports extending via '_extend'
 #      OPTIONS:  ---
 # REQUIREMENTS:  ---
 #         BUGS:  ---
@@ -29,10 +29,12 @@ use Cwd qw{ abs_path };
 
 my $input;
 my $output;
+my $parent;
 
 GetOptions(
     'input|i=s'     =>  \$input,
     'output|o=s'    =>  \$output,
+    'parent!'       =>  \$parent,
 );
 
 unless (defined($input) && -f $input) {
@@ -61,20 +63,44 @@ my $elem_count = scalar @{$elems};
 
 for (my $i = 0; $i < $elem_count; $i++) {
     
+    my $extensions = {};
+
+    ## support extensions (file or hash ref) which will add / replace keyed values in the include
+    if (! $parent && defined($elems->[$i]->{'_extend'})) {
+
+        if (ref $elems->[$i]->{'_extend'} eq 'HASH') {
+            $extensions = $elems->[$i]->{'_extend'};
+        } else {
+            my $file = $elems->[$i]->{'_extend'};
+            $extensions = get_json($file);
+        }
+    }
+    ## support file includes
     if (defined($elems->[$i]->{'_include'})) {
-    
+   
         my $file = $elems->[$i]->{'_include'};
-        delete $elems->[$i]->{'_include'};
     
-        my $json = read_file($input_dir.'/'.$file);
-    
-        my $obj = decode_json($json);
+        my $obj = get_json($input_dir, $file);
+        
+        foreach my $key(keys %{$extensions}) {
+            $obj->{$key} = $extensions->{$key};
+        }
     
         $elems->[$i] = $obj;
-    }
+    }  
 }
 
 my $jsonp = JSON->new->allow_nonref;
 $json = $jsonp->pretty->encode($obj); # pretty-printing
 
 write_file("$output/$ftype.json", $json);
+
+sub get_json {
+    my ($input_dir, $file) = @_;
+
+    my $json = read_file($input_dir.'/'.$file);
+    
+    my $obj = decode_json($json);
+
+    return $obj; 
+}
