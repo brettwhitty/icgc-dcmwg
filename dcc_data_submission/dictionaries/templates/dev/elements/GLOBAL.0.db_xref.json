@@ -2,7 +2,7 @@
    "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "db_xref",
-   "label" : "Value code of cross-reference database:ID of the mutation in the cross-reference database.  Separate multiple entries by commas.",
+   "label" : "Provide one or more related public database identifier cross-references in the format: 'DB:ID', where DB is defined database token and ID is the identifier in that database. Use comma ',' as a delimiter for lists of >1 xrefs.",
    "valueType" : "TEXT",
    "restrictions" : []
 }
