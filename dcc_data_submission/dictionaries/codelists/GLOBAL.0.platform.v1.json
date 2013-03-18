@@ -396,7 +396,7 @@
          "value" : "Affymetrix Human Genome U219 Array Plate",
          "uri" : null,
          "code" : "79"
-      },
+      }
    ],
    "name" : "GLOBAL.0.platform.v1",
    "label" : "Analysis and Validation Platforms"
