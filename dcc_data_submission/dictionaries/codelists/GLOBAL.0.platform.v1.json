@@ -376,7 +376,7 @@
          "value" : "Illumina HumanOmniExpress BeadChip",
          "uri" : null,
          "code" : "75"
-      }
+      },
       {
          "value" : "PacBio RS sequencing",
          "uri" : null,
