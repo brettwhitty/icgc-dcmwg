@@ -17,7 +17,7 @@
         document.getElementById("contents").innerHTML.replace(
             /<h([\d])>\s*([^<]+)<\/h([\d])>/gi,
             function (str, openLevel, titleText, closeLevel) {
-                if (titleText.match(/File Key:|Notice\!|URL:/i)) {
+                if (titleText.match(/File Key:|Notice|URL:/i)) {
                     return str;
                 }
                 if (openLevel != closeLevel) {
