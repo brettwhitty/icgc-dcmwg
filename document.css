@@ -1,0 +1,100 @@
+/*body {
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+}*/
+div .file-spec {
+    padding-bottom: 1.5em;
+}
+div .cv-spec {
+    padding-bottom: 1.5em;
+}
+.identifier.required-element {
+ /*   background: #EEEEFF; */
+}
+.optional-element {
+    background: #F5F5F5;
+}
+.deprecated-element {
+    background: #FFF8C6;
+}
+.element-name{
+    font-size: 0.85em;
+    font-weight: 600;
+}
+.element-display-name{
+    font-weight: 900;
+}
+.element-description{
+    min-width: 30em;
+/*    font-weight: 600;*/
+    font-size: 0.9em;
+}
+.datatype {
+    text-align: center
+}
+.datatype.cv {
+    color: #993399;
+}
+.datatype.integer {
+    color: #336699;
+}
+.datatype.decimal {
+    color: #339999;
+}
+.datatype.text {
+    color: #666666;
+}
+.codes-link {
+    font-size: 0.9em;
+}
+.codes.na {
+    color: #999999;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+.codes.appendix div.list {
+    display: none;
+}
+.codes.inplace div.link {
+    display: none;
+}
+.bool {
+    vertical-align: middle;
+}
+.bool.istrue {
+}
+.bool.isfalse {
+}
+.bool.isna {
+}
+
+.table tbody tr > td {
+    vertical-align: middle;
+}
+dl { 
+    padding: 0;
+    margin: 0;
+}
+dt { 
+    float: left; 
+    clear: left; 
+    width: 2.5em; 
+    text-align: right; 
+    font-weight: bold; 
+    color: green;
+} 
+dt:after {
+    content: ":";
+} 
+dd {
+    padding: 0;
+    margin: 0 0 0 3em;
+}
+.cv-code {
+    color: green;
+}
+.cv-value {
+    font-weight: 900;
+}
+#toc {
+}

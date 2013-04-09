@@ -1,0 +1,55 @@
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-sortable.js"></script>
+<script type='text/javascript'>
+    window.onload = function () {
+        
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>\s*([^<]+)<\/h([\d])>/gi,
+            function (str, openLevel, titleText, closeLevel) {
+                if (titleText.match(/File Key:|Notice\!|URL:/i)) {
+                    return str;
+                }
+                if (openLevel != closeLevel) {
+                    return str;
+                }
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ul>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ul>");
+                }
+
+                level = parseInt(openLevel);
+
+                var tocText = titleText.replace(/'/g, '');
+                tocText = tocText.replace(/File Type: /g, '');
+                tocText = tocText.replace(/CV Table: /g, '');
+                var anchor = tocText.replace(/[\(\)]/g, '');
+                toc += "<li><small><a href=\"#" + anchor + "\">" + tocText
+                    + "</a></small></li>";
+
+                return "<h" + openLevel + "><a name=\"" + anchor + "\"></a>"
+                    + titleText + "</h" + closeLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ul>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+<div class='row-fluid'>
+    <div class='span2'>
+       <div id="toc">
+            <h5>Table of Contents</h5>
+        </div>
+    </div>
+    <div class='span10'>
+        <div id='contents'>
