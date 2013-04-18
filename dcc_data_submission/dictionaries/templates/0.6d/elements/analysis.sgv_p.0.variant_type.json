@@ -2,7 +2,7 @@
    "summaryType" : "FREQUENCY",
    "controlled" : false,
    "name" : "variant_type",
-   "label" : "Type of mutation/variation",
+   "label" : "A controlled vocabulary term describing the type of the observed variant",
    "valueType" : "TEXT",
    "restrictions" : [
       {
@@ -14,7 +14,7 @@
       {
          "type" : "codelist",
          "config" : {
-            "name" : "stsm_p.0.variant_type.v1"
+            "name" : "sgv_p.0.variant_type.v1"
          }
       }
    ]
