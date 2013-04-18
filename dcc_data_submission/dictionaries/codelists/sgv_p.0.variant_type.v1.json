@@ -1,0 +1,28 @@
+{
+   "created" : 1347981138665,
+   "lastUpdate" : 1347981138665,
+   "terms" : [   
+      {
+         "value" : "single base substitution",
+         "uri" : null,
+         "code" : "1"
+      },
+      {
+         "value" : "insertion of <= 200 bp",
+         "uri" : null,
+         "code" : "2"
+      },
+      {
+         "value" : "deletion of <= 200 bp",
+         "uri" : null,
+         "code" : "3"
+      },
+      {
+         "value" : "multiple base substitution (>= 2bp and <= 200bp)",
+         "uri" : null,
+         "code" : "4"
+      }
+   ],
+   "name" : "sgv_p.0.variant_type.v1",
+   "label" : null 
+}

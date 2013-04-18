@@ -1,8 +1,0 @@
-{
-   "summaryType" : "UNIQUE_COUNT",
-   "controlled" : false,
-   "name" : "microhomology_sequence",
-   "label" : "If a microhomology is inserted, provide sequence",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}

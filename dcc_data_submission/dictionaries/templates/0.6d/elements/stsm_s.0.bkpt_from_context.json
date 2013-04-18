@@ -1,8 +1,0 @@
-{
-   "summaryType" : null,
-   "controlled" : false,
-   "name" : "bkpt_from_context",
-   "label" : "Contextual description of the first break location (Exonic, Intronic, Intergenic)",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}

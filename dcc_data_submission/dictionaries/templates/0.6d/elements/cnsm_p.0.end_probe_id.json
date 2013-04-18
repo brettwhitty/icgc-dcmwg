@@ -1,8 +1,0 @@
-{
-   "summaryType" : "UNIQUE_COUNT",
-   "controlled" : false,
-   "name" : "end_probe_id",
-   "label" : "Probe id containing the chromosome_end if array platform was used",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}

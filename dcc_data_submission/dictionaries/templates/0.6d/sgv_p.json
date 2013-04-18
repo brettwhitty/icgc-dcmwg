@@ -1,301 +1,93 @@
 {
-   "pattern" : "^sgv__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__p__\\d+__(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "pattern" : "^sgv(?:__.*)?__p(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "analysis_id",
-         "label" : "Unique identfier for the analysis performed for a particular group of samples",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : false
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.analysis_id.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "control_sample_id",
-         "label" : "Unique identifier for the control sample",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : false
-               }
-            }
-         ]
+         "_include" : "elements/clinical.GLOBAL.0.analyzed_sample_id.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "variation_id",
-         "label" : "Unique identifier for the variation",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.variant_id.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "FREQUENCY",
-         "controlled" : true,
-         "name" : "variation_type",
-         "label" : "Type of variation",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            },
-            {
-               "type" : "codelist",
-               "config" : {
-                  "name" : "sgv_p__variation_type"
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.variant_type.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "FREQUENCY",
-         "controlled" : true,
-         "name" : "chromosome",
-         "label" : "Name of the chromosome containing the mutation/variation",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            },
-            {
-               "type" : "codelist",
-               "config" : {
-                  "name" : "appendix_B6"
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.chromosome.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "AVERAGE",
-         "controlled" : true,
-         "name" : "chromosome_start",
-         "label" : "Start position of the mutation/variation on the chromosome",
-         "valueType" : "INTEGER",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.chromosome_start.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "AVERAGE",
-         "controlled" : true,
-         "name" : "chromosome_end",
-         "label" : "End position of the mutation/variation on the chromosome",
-         "valueType" : "INTEGER",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.chromosome_end.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "FREQUENCY",
-         "controlled" : true,
-         "name" : "chromosome_strand",
-         "label" : "Chromosome strand",
-         "valueType" : "INTEGER",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            },
-            {
-               "type" : "codelist",
-               "config" : {
-                  "name" : "sgv_p__chromosome_strand"
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.chromosome_strand.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "refsnp_allele",
-         "label" : "RefSNP alleles from dbSNP (use a dash for each missing base)",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.refsnp_allele.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "FREQUENCY",
-         "controlled" : true,
-         "name" : "refsnp_strand",
-         "label" : "Strand of RefSNP allele",
-         "valueType" : "INTEGER",
-         "restrictions" : [
-            {
-               "type" : "codelist",
-               "config" : {
-                  "name" : "sgv_p__refsnp_strand"
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.refsnp_strand.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "reference_genome_allele",
-         "label" : "Allele in the reference genome (use a dash for each missing base)",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.reference_genome_allele.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "control_genotype",
-         "label" : "Genotype of the control sample (use a dash for each missing base)",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.control_genotype.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "tumour_genotype",
-         "label" : "Genotype of the tumour sample (use a dash for each missing base)",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.tumour_genotype.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "expressed_allele",
-         "label" : "For heterozygous SNPs, the dominant allele as revealed by RNA-seq, etc.",
-         "valueType" : "TEXT",
-         "restrictions" : []
+         "_include" : "elements/analysis.GLOBAL.0.expressed_allele.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "AVERAGE",
-         "controlled" : true,
-         "name" : "quality_score",
-         "label" : "Average quality score for the mutation/variation call",
-         "valueType" : "INTEGER",
-         "restrictions" : []
+         "_include" : "elements/analysis.GLOBAL.0.quality_score.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "AVERAGE",
-         "controlled" : true,
-         "name" : "probability",
-         "label" : "Probability of the mutation/variation call",
-         "valueType" : "DECIMAL",
-         "restrictions" : []
+         "_include" : "elements/analysis.GLOBAL.0.probability.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "AVERAGE",
-         "controlled" : true,
-         "name" : "read_count",
-         "label" : "Average number of times the bases are covered by raw reads",
-         "valueType" : "DECIMAL",
-         "restrictions" : []
+         "_include" : "elements/analysis.GLOBAL.0.read_count.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "FREQUENCY",
-         "controlled" : true,
-         "name" : "is_annotated",
-         "label" : "Indicate if the mutation/variation is annotated in dbSNP",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "codelist",
-               "config" : {
-                  "name" : "sgv_p__is_annotated"
-               }
-            }
-         ]
+         "_include" : "elements/analysis.GLOBAL.0.is_annotated.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "FREQUENCY",
-         "controlled" : true,
-         "name" : "validation_status",
-         "label" : "Indicate if the mutation/variation has been validated",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "required",
-               "config" : {
-                  "acceptMissingCode" : true
-               }
-            },
-            {
-               "type" : "codelist",
-               "config" : {
-                  "name" : "sgv_p__validation_status"
-               }
-            }
-         ]
+         "_include" : "elements/GLOBAL.0.uri.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : "FREQUENCY",
-         "controlled" : true,
-         "name" : "validation_platform",
-         "label" : "Platform or technology used in validation",
-         "valueType" : "TEXT",
-         "restrictions" : [
-            {
-               "type" : "codelist",
-               "config" : {
-                  "name" : "appendix_B5"
-               }
-            }
-         ]
+         "_include" : "elements/GLOBAL.0.db_xref.json",
+         "_extend"  : { "controlled" : true }
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.verification_status.json",
+         "_extend"  : { "controlled" : true }
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.verification_platform.json",
+         "_extend"  : { "controlled" : true }
       },
       {
          "summaryType" : null,
@@ -321,20 +113,20 @@
          "optionals" : [],
          "fields" : [
             "analysis_id",
-            "control_sample_id"
+            "analyzed_sample_id"
          ],
          "other" : "sgv_m",
          "otherFields" : [
             "analysis_id",
-            "control_sample_id"
+            "analyzed_sample_id"
          ]
       }
    ],
    "label" : null,
    "uniqueFields" : [
       "analysis_id",
-      "control_sample_id",
-      "variation_id"
+      "analyzed_sample_id",
+      "variant_id"
    ],
    "role" : "SUBMISSION"
 }

@@ -1,8 +1,0 @@
-{
-   "summaryType" : null,
-   "controlled" : false,
-   "name" : "junction_seq",
-   "label" : "Provide junction sequence if either is_fusion_gene or is_novel_splice_form is true",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}

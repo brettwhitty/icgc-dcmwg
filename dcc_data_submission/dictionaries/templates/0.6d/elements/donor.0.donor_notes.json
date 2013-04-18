@@ -1,8 +1,0 @@
-{
-   "summaryType" : null,
-   "controlled" : true,
-   "name" : "donor_notes",
-   "label" : "Free text notes concerning donor",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}

@@ -1,8 +1,0 @@
-{
-   "summaryType" : null,
-   "controlled" : false,
-   "name" : "bkpt_to_context",
-   "label" : "Contextual description of the second break location (Exonic, Intronic, Intergenic)",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}

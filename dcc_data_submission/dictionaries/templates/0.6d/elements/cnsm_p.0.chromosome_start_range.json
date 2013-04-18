@@ -1,8 +1,0 @@
-{
-   "summaryType" : "AVERAGE",
-   "controlled" : false,
-   "name" : "chromosome_start_range",
-   "label" : "Number of bases around chromosome_start that may contain the start position",
-   "valueType" : "INTEGER",
-   "restrictions" : []
-}

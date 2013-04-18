@@ -1,8 +1,0 @@
-{
-   "summaryType" : "UNIQUE_COUNT",
-   "controlled" : false,
-   "name" : "probeset_id",
-   "label" : "ID of the probeset used in microarray",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}
