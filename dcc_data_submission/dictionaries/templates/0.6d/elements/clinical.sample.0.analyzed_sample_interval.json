@@ -1,0 +1,8 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "analyzed_sample_interval",
+   "label" : "Interval from specimen acquisition to sample use in an analytic procedure (e.g. DNA extraction), in days",
+   "valueType" : "INTEGER",
+   "restrictions" : []
+}

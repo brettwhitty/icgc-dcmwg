@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "junction_type",
+   "label" : "Type of junction",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "jcn_p.0.junction_type.v1"
+         }
+      }
+   ]
+}

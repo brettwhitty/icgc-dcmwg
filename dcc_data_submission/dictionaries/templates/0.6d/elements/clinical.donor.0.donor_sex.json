@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "donor_sex",
+   "label" : "Donor biological sex. 'Other' has been removed from the controlled vocabulary due to identifiability concerns.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "donor.0.donor_sex.v1"
+         }
+      }
+   ]
+}

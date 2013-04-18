@@ -1,0 +1,15 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "donor_survival_time",
+   "label" : "How long has donor survived since primary diagnosis, in days. If source data was collected in months, use a multiplier value of '30.44' to convert value to days when preparing submission.",
+   "valueType" : "INTEGER",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

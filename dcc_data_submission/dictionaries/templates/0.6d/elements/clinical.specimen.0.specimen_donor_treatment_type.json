@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "specimen_donor_treatment_type",
+   "label" : "Type of treatment the donor received prior to specimen acquisition.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "specimen.0.specimen_donor_treatment_type.v1"
+         }
+      }
+   ]
+}

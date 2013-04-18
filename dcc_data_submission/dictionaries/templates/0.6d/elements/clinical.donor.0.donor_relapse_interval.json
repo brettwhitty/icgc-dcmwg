@@ -1,0 +1,15 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "donor_relapse_interval",
+   "label" : "If donor was clinically disease free following primary therapy and relapse or progression (for liquid tumours) occurred, length of disease free interval, in days.",
+   "valueType" : "INTEGER",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

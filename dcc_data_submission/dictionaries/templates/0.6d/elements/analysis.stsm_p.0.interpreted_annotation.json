@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "interpreted_annotation",
+   "label" : "HGVS nomenclature for description of sequence mutation/variation. E.g. chr3:g.1234567-2345678inv.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

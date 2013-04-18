@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "gene_affected_by_bkpt_from",
+   "label" : null,
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

@@ -1,0 +1,15 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "is_novel_splice_form",
+   "label" : "Indicate if the splice form is novel",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.yes_no.v1"
+         }
+      }
+   ]
+}

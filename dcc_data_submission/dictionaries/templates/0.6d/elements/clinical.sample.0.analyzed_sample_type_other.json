@@ -1,0 +1,8 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "analyzed_sample_type_other",
+   "label" : "Free text description of site of sample if 'other' was specified in sample_type field.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}
