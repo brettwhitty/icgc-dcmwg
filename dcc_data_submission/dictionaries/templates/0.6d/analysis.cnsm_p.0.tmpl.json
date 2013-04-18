@@ -5,7 +5,7 @@
          "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.analyzed_sample_id.json"
+         "_include" : "elements/GLOBAL.0.analyzed_sample_id.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.mutation_id.json"
