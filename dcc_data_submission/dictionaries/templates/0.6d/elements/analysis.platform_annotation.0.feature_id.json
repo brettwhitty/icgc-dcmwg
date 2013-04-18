@@ -1,0 +1,15 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "feature_id",
+   "label" : "A unique identifier for a feature (eg: probe) on a particular analysis platform that has associated genomic coordinates or annotation; vendor-assigned identifier should be used when available; for annotations involving coordinate-based features it's recommended to construct an ID in the following syntax: 'platform_id.chromosome:start-end:strand'",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

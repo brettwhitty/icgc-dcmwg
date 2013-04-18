@@ -1,0 +1,15 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "gene_name",
+   "label" : "This element has been deprecated in favor of the more flexible 'db_xref'; For providing HGNC approved gene symbol or ID use the DB Xref syntax: 'HGNC:x' and please continue to populate in this field as well as in 'db_xref'",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

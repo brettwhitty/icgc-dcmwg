@@ -1,8 +1,8 @@
 {
    "summaryType" : "AVERAGE",
    "controlled" : false,
-   "name" : "segment_mean",
-   "label" : "Mean LRR per segment",
+   "name" : "normalized_read_count",
+   "label" : "Normalized count of sequencing reads if analyzed by sequencing platforms",
    "valueType" : "DECIMAL",
    "restrictions" : [
       {

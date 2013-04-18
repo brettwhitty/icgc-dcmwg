@@ -8,7 +8,7 @@
       {
          "type" : "required",
          "config" : {
-            "acceptMissingCode" : false
+            "acceptMissingCode" : true
          }
       }
    ]

@@ -1,14 +1,14 @@
 {
    "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
-   "name" : "specimen_biobank_id",
-   "label" : "If the specimen was obtained from a biobank, provide the biobank accession number here.",
+   "name" : "reference_genome_allele",
+   "label" : "Allele in the reference genome (use a dash for each missing base)",
    "valueType" : "TEXT",
    "restrictions" : [
       {
          "type" : "required",
          "config" : {
-            "acceptMissingCode" : true
+            "acceptMissingCode" : false
          }
       }
    ]

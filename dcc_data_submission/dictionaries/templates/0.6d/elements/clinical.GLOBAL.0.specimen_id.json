@@ -1,14 +1,14 @@
 {
    "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
-   "name" : "specimen_biobank_id",
-   "label" : "If the specimen was obtained from a biobank, provide the biobank accession number here.",
+   "name" : "specimen_id",
+   "label" : "Unique identifier for a collected specimen assigned by data provider.",
    "valueType" : "TEXT",
    "restrictions" : [
       {
          "type" : "required",
          "config" : {
-            "acceptMissingCode" : true
+            "acceptMissingCode" : false
          }
       }
    ]

@@ -1,6 +1,6 @@
 {
    "summaryType" : null,
-   "controlled" : false,
+   "controlled" : true,
    "name" : "analyzed_sample_notes",
    "label" : "Freetext notes about sample allowed",
    "valueType" : "TEXT",

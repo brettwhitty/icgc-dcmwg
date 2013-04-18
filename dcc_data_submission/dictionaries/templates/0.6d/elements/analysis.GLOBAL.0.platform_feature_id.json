@@ -1,0 +1,15 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "platform_feature_id",
+   "label" : "A unique identifier for a feature (eg: probe) associated with the particular analysis platform used in the analysis referred to by analysis ID; the platform feature is expected to have associated genomic coordinates or annotation described in a platform annotation file; vendor-assigned identifiers should be used when available; can specify as a list of IDs where appropriate delimited by comma (',')",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

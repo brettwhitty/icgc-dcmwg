@@ -1,0 +1,8 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "quality_score",
+   "label" : "Quality score of the observation",
+   "valueType" : "DECIMAL",
+   "restrictions" : []
+}

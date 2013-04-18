@@ -1,0 +1,8 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "seq_coverage",
+   "label" : "Sequence coverage if analyzed by sequencing platforms",
+   "valueType" : "DECIMAL",
+   "restrictions" : []
+}

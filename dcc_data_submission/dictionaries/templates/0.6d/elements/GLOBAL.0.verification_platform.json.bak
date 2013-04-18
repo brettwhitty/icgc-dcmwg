@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "verification_platform",
+   "label" : "Platform or technology used in verification",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.platform.v1"
+         }
+      }
+   ]
+}

@@ -1,0 +1,8 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "uri",
+   "label" : "Provide one or more URIs that are related to the data provided; Use URL-encoding for special characters, and delimit multiple URIs with a comma.",
+   "valueType" : "TEXT",
+   "restrictions" : []
+}

@@ -1,8 +1,8 @@
 {
    "summaryType" : null,
    "controlled" : true,
-   "name" : "therapy_notes",
-   "label" : "Further description of therapy, such as dosing schedule.",
+   "name" : "exposure_notes",
+   "label" : "Free text notes.",
    "valueType" : "TEXT",
    "restrictions" : [
       {

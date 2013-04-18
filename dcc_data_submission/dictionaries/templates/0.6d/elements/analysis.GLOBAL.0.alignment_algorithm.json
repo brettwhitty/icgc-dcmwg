@@ -1,8 +1,8 @@
 {
-   "summaryType" : null,
-   "controlled" : true,
-   "name" : "therapy_notes",
-   "label" : "Further description of therapy, such as dosing schedule.",
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "alignment_algorithm",
+   "label" : "Name of alignment algorithm and URL to written protocol",
    "valueType" : "TEXT",
    "restrictions" : [
       {

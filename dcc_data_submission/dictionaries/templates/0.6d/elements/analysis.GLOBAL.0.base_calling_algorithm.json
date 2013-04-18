@@ -1,8 +1,8 @@
 {
-   "summaryType" : null,
-   "controlled" : true,
-   "name" : "therapy_notes",
-   "label" : "Further description of therapy, such as dosing schedule.",
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "base_calling_algorithm",
+   "label" : "Name of base calling algorithm and URL to written protocol",
    "valueType" : "TEXT",
    "restrictions" : [
       {

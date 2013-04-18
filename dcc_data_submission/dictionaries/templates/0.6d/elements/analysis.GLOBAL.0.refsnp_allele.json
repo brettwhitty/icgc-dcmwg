@@ -1,8 +1,8 @@
 {
-   "summaryType" : null,
-   "controlled" : true,
-   "name" : "therapy_notes",
-   "label" : "Further description of therapy, such as dosing schedule.",
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "refsnp_allele",
+   "label" : "RefSNP alleles from dbSNP (use a dash for each missing base)",
    "valueType" : "TEXT",
    "restrictions" : [
       {

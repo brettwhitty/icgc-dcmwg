@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "sequencing_strategy",
+   "label" : "Sequencing technique intended for the analyzed sample library.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.sequencing_strategy.v1"
+         }
+      }
+   ]
+}

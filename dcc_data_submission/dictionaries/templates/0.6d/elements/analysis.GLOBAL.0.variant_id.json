@@ -1,0 +1,22 @@
+ {
+         "summaryType" : "FREQUENCY",
+         "controlled" : true,
+         "name" : "variant_type",
+         "label" : "A controlled vocabulary term describing the type of the observed variant",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "required",
+               "config" : {
+                  "acceptMissingCode" : false
+               }
+            },
+            {
+               "type" : "codelist",
+               "config" : {
+                  "name" : "sgv_p.0.variant_type.v1"
+               }
+            }
+         ]
+}
+

@@ -1,8 +1,8 @@
 {
-   "summaryType" : "UNIQUE_COUNT",
+   "summaryType" : "FREQUENCY",
    "controlled" : false,
-   "name" : "specimen_biobank_id",
-   "label" : "If the specimen was obtained from a biobank, provide the biobank accession number here.",
+   "name" : "variation_calling_algorithm",
+   "label" : "Name of variation calling algorithm and URL to written protocol",
    "valueType" : "TEXT",
    "restrictions" : [
       {

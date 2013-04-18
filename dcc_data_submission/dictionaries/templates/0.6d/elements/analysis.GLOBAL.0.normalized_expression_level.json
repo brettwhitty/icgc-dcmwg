@@ -1,14 +1,14 @@
 {
    "summaryType" : "AVERAGE",
    "controlled" : false,
-   "name" : "segment_mean",
-   "label" : "Mean LRR per segment",
+   "name" : "normalized_expression_level",
+   "label" : "Normalized expression level",
    "valueType" : "DECIMAL",
    "restrictions" : [
       {
          "type" : "required",
          "config" : {
-            "acceptMissingCode" : true
+            "acceptMissingCode" : false
          }
       }
    ]

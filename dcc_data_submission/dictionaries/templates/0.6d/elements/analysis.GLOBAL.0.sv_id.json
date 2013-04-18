@@ -1,14 +1,14 @@
 {
    "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
-   "name" : "specimen_biobank_id",
-   "label" : "If the specimen was obtained from a biobank, provide the biobank accession number here.",
+   "name" : "sv_id",
+   "label" : "A unique identifier assigned to a particular structural variant observation (one ID per event).",
    "valueType" : "TEXT",
    "restrictions" : [
       {
          "type" : "required",
          "config" : {
-            "acceptMissingCode" : true
+            "acceptMissingCode" : false
          }
       }
    ]
