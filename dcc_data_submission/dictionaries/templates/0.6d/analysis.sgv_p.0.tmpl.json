@@ -90,24 +90,35 @@
          "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "xref_ensembl_var_id",
-         "label" : "Cross-reference: Ensembl Variation ID",
-         "valueType" : "TEXT",
-         "restrictions" : []
+         "_include" : "elements/GLOBAL.0.xref_ensembl_var_id.json",
+         "_extend"  : { "controlled" : true }
       },
       {
-         "summaryType" : null,
-         "controlled" : true,
-         "name" : "note",
-         "label" : "Optional field to leave notes",
-         "valueType" : "TEXT",
-         "restrictions" : []
+        "_include" : "elements/GLOBAL.0.uri.json"
+         "_extend"  : { "controlled" : true }
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+         "_extend"  : { "controlled" : true }
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+         "_extend"  : { "controlled" : true }
       }
    ],
    "name" : "sgv_p",
    "relations" : [
+       {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "analyzed_sample_id"
+         ],
+         "other" : "sample",
+         "otherFields" : [
+            "analyzed_sample_id"
+         ]
+      },
       {
          "bidirectional" : true,
          "optionals" : [],
@@ -122,7 +133,7 @@
          ]
       }
    ],
-   "label" : null,
+   "label" : "Simple Germline Variation (sgv) - Primary Analysis File (p)",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id",

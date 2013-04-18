@@ -1,5 +1,5 @@
 {
-   "pattern" : "^cnsm(?:__.*)?__m(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^meth(?:__.*)?__m(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
@@ -32,12 +32,6 @@
          "_include" : "elements/analysis.GLOBAL.0.other_analysis_algorithm.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.sequencing_strategy.json"
-      },
-      {
-         "_include" : "elements/analysis.GLOBAL.0.seq_coverage.json"
-      },
-      {
          "_include" : "elements/analysis.GLOBAL.0.raw_data_repository.json"
       },
       {
@@ -52,9 +46,8 @@
       {
          "_include" : "elements/GLOBAL.0.note.json"
       }
-
    ],
-   "name" : "cnsm_m",
+   "name" : "meth_m",
    "relations" : [
       {
          "bidirectional" : false,
@@ -79,7 +72,7 @@
          ]
       }
    ],
-   "label" : "Copy Number Somatic Mutations (cnsm) - Analysis Metadata File (m)",
+   "label" : "DNA Methylation (meth) - Analysis Metadata File (m)",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id"

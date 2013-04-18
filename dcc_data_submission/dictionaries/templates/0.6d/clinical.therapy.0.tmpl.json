@@ -1,26 +1,23 @@
 {
-   "pattern" : "^(?:.*__)?family(?:__.*)?+\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^(?:.*__)?therapy(?:__.*)?+\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/clinical.GLOBAL.0.donor_id.json"
       },
       {
-         "_include" : "elements/clinical.family.0.relationship_type.json"
+         "_include" : "elements/clinical.therapy.0.therapy_start_interval.json"
       },
       {
-         "_include" : "elements/clinical.family.0.relationship_type_other.json"
+         "_include" : "elements/clinical.therapy.0.therapy_duration.json"
       },
       {
-         "_include" : "elements/clinical.family.0.relationship_sex.json"
+         "_include" : "elements/clinical.therapy.0.therapy_type.json"
       },
       {
-         "_include" : "elements/clinical.family.0.relationship_age.json"
+         "_include" : "elements/clinical.therapy.0.therapy_response.json"
       },
       {
-         "_include" : "elements/clinical.family.0.relationship_disease_icd10.json"
-      },
-      {
-         "_include" : "elements/clinical.family.0.relationship_disease.json"
+         "_include" : "elements/clinical.therapy.0.therapy_notes.json"
       },
       {
         "_include" : "elements/GLOBAL.0.uri.json"
@@ -42,8 +39,8 @@
          ]
       }
    ],
-   "name" : "family",
+   "name" : "therapy",
    "uniqueFields" : [],
-   "label" : "Donor Family (family)",
+   "label" : "Donor Therapy (therapy)",
    "role" : "SUBMISSION"
 }

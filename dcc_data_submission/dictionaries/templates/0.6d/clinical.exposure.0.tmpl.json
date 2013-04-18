@@ -1,20 +1,25 @@
 {
-   "pattern" : "^\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__exposure__(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "pattern" : "^(?:.*__)?exposure(?:__.*)?+\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
-         "_include" : "elements/GLOBAL.0.donor_id.json"
+         "_include" : "elements/clinical.GLOBAL.0.donor_id.json"
       },
       {
-         "_include" : "elements/exposure.0.exposure_type.json"
+         "_include" : "elements/clinical.exposure.0.exposure_type.json"
       },
       {
-         "_include" : "elements/exposure.0.exposure_intensity.json"
+         "_include" : "elements/clinical.exposure.0.exposure_intensity.json"
       },
       {
-         "_include" : "elements/exposure.0.exposure_notes.json"
+         "_include" : "elements/clinical.exposure.0.exposure_notes.json"
+      },
+      {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
       }
-   ],
-   "name" : "exposure",
+  ],
    "relations" : [
       {
          "bidirectional" : false,
@@ -28,7 +33,8 @@
          ]
       }
    ],
-   "label" : null,
+   "name" : "exposure",
    "uniqueFields" : [],
+   "label" : "Donor Exposure (exposure)",
    "role" : "SUBMISSION"
 }

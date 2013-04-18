@@ -1,5 +1,5 @@
 {
-   "pattern" : "^cnsm(?:__.*)?__s(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^ssm(?:__.*)?__s(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
@@ -9,6 +9,18 @@
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.mutation_id.json"
+      },
+      {
+         "_include" : "elements/analysis.ssm_s.0.consequence_type.json"
+      },
+      {
+         "_include" : "elements/analysis.ssm_s.0.aa_mutation.json"
+      },
+      {
+         "_include" : "elements/analysis.ssm_s.0.cds_mutation.json"
+      },
+      {
+         "_include" : "elements/analysis.ssm_s.0.protein_domain_affected.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.gene_affected.json"
@@ -23,7 +35,6 @@
          "_include" : "elements/GLOBAL.0.note.json"
       }
    ],
-   "name" : "cnsm_s",
    "relations" : [
       {
          "bidirectional" : false,
@@ -33,7 +44,7 @@
             "analyzed_sample_id",
             "mutation_id"
          ],
-         "other" : "cnsm_p",
+         "other" : "ssm_p",
          "otherFields" : [
             "analysis_id",
             "analyzed_sample_id",
@@ -41,7 +52,8 @@
          ]
       }
    ],
-   "label" : "Copy Number Somatic Mutations (cnsm) - Secondary Analysis File (s)",
+   "name" : "ssm_s",
    "uniqueFields" : [],
+   "label" : "Simple Somatic Mutations (ssm) - Secondary Analysis File (s)",
    "role" : "SUBMISSION"
 }

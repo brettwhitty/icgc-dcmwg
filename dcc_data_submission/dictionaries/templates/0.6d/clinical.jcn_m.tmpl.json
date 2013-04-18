@@ -1,5 +1,5 @@
 {
-   "pattern" : "^cnsm(?:__.*)?__m(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^jcn(?:__.*)?__m(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
@@ -8,10 +8,10 @@
          "_include" : "elements/analysis.GLOBAL.0.analyzed_sample_id.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.matched_sample_id.json"
+         "_include" : "elements/analysis.GLOBAL.0.assembly_version.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.assembly_version.json"
+         "_include" : "elements/analysis.GLOBAL.0.gene_build_version.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.platform.json"
@@ -26,7 +26,7 @@
          "_include" : "elements/analysis.GLOBAL.0.alignment_algorithm.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.variation_calling_algorithm.json"
+         "_include" : "elements/analysis.GLOBAL.0.normalization_algorithm.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.other_analysis_algorithm.json"
@@ -44,34 +44,17 @@
          "_include" : "elements/analysis.GLOBAL.0.raw_data_accession.json"
       },
       {
-        "_include" : "elements/GLOBAL.0.uri.json"
-      },
-      {
-         "_include" : "elements/GLOBAL.0.db_xref.json"
-      },
-      {
          "_include" : "elements/GLOBAL.0.note.json"
       }
 
    ],
-   "name" : "cnsm_m",
+   "name" : "jcn_m",
    "relations" : [
       {
          "bidirectional" : false,
          "optionals" : [],
          "fields" : [
-            "analyzed_sample_id"
-         ],
-         "other" : "sample",
-         "otherFields" : [
-            "analyzed_sample_id"
-         ]
-      },
-      {
-         "bidirectional" : false,
-         "optionals" : [],
-         "fields" : [
-            "matched_sample_id"
+            "sample_id"
          ],
          "other" : "sample",
          "otherFields" : [
@@ -79,7 +62,7 @@
          ]
       }
    ],
-   "label" : "Copy Number Somatic Mutations (cnsm) - Analysis Metadata File (m)",
+   "label" : "Splice Variation (jcn) - Analysis Metadata File (m)",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id"

@@ -1,5 +1,5 @@
 {
-   "pattern" : "^cnsm(?:__.*)?__m(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^stsm(?:__.*)?__m(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
@@ -52,9 +52,7 @@
       {
          "_include" : "elements/GLOBAL.0.note.json"
       }
-
    ],
-   "name" : "cnsm_m",
    "relations" : [
       {
          "bidirectional" : false,
@@ -79,10 +77,11 @@
          ]
       }
    ],
-   "label" : "Copy Number Somatic Mutations (cnsm) - Analysis Metadata File (m)",
+   "name" : "stsm_m",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id"
    ],
+   "label" : "Structural Somatic Mutations (stsm) - Analysis Metadata File (m)",
    "role" : "SUBMISSION"
 }

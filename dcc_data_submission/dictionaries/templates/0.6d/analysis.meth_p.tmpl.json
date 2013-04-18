@@ -1,20 +1,14 @@
 {
-   "pattern" : "^cnsm(?:__.*)?__p(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^meth(?:__.*)?__p(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.analyzed_sample_id.json"
+         "_include" : "elements/clinical.GLOBAL.0.analyzed_sample_id.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.mutation_id.json"
-      },
-      {
-         "_include" : "elements/analysis.cnsm_p.0.start_probe_id.json"
-      },
-      {
-         "_include" : "elements/analysis.cnsm_p.0.end_probe_id.json"
+         "_include" : "elements/analysis.GLOBAL.0.methylated_fragment_id.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.chromosome.json"
@@ -26,31 +20,19 @@
          "_include" : "elements/analysis.GLOBAL.0.chromosome_end.json"
       },
       {
-         "_include" : "elements/analysis.cnsm_p.0.chromosome_start_range.json"
+         "_include" : "elements/analysis.GLOBAL.0.chromosome_strand.json"
       },
       {
-         "_include" : "elements/analysis.cnsm_p.0.chromosome_end_range.json"
+         "_include" : "elements/analysis.meth_p.0.percent_methylation.json"
       },
       {
-         "_include" : "elements/analysis.cnsm_p.0.mutation_type.json"
-      },
-      {
-         "_include" : "elements/analysis.cnsm_p.0.copy_number.json"
-      },
-      {
-         "_include" : "elements/analysis.cnsm_p.0.segment_mean.json"
-      },
-      {
-         "_include" : "elements/analysis.cnsm_p.0.segment_median.json"
+         "_include" : "elements/analysis.meth_p.0.beta_value.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.quality_score.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.probability.json"
-      },
-      {
-         "_include" : "elements/analysis.GLOBAL.0.is_annotated.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.verification_status.json"
@@ -67,9 +49,8 @@
       {
          "_include" : "elements/GLOBAL.0.note.json"
       }
-
    ],
-   "name" : "cnsm_p",
+   "name" : "meth_p",
    "relations" : [
       {
          "bidirectional" : true,
@@ -78,18 +59,18 @@
             "analysis_id",
             "analyzed_sample_id"
          ],
-         "other" : "cnsm_m",
+         "other" : "meth_m",
          "otherFields" : [
             "analysis_id",
             "analyzed_sample_id"
          ]
       }
    ],
-   "label" : "Copy Number Somatic Mutations (cnsm) - Primary Analysis File (p)",
+   "label" : "DNA Methylation (meth) - Primary Analysis File (p)",
    "uniqueFields" : [
       "analysis_id",
       "analyzed_sample_id",
-      "mutation_id"
+      "methylated_fragment_id"
    ],
    "role" : "SUBMISSION"
 }

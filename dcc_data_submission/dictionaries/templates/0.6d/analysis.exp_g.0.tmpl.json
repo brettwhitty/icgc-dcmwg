@@ -1,47 +1,41 @@
 {
-   "pattern" : "^cnsm(?:__.*)?__p(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^exp(?:__.*)?__p(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.analyzed_sample_id.json"
+         "_include" : "elements/clinical.GLOBAL.0.analyzed_sample_id.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.mutation_id.json"
+         "_include" : "elements/analysis.GLOBAL.0.gene_stable_id.json"
       },
       {
-         "_include" : "elements/analysis.cnsm_p.0.start_probe_id.json"
+         "_include" : "elements/analysis.GLOBAL.0.gene_chromosome.json"
       },
       {
-         "_include" : "elements/analysis.cnsm_p.0.end_probe_id.json"
+         "_include" : "elements/analysis.GLOBAL.0.gene_strand.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.chromosome.json"
+         "_include" : "elements/analysis.GLOBAL.0.gene_start.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.chromosome_start.json"
+         "_include" : "elements/analysis.GLOBAL.0.gene_end.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.chromosome_end.json"
+         "_include" : "elements/analysis.GLOBAL.0.normalized_read_count.json"
       },
       {
-         "_include" : "elements/analysis.cnsm_p.0.chromosome_start_range.json"
+         "_include" : "elements/analysis.GLOBAL.0.raw_read_count.json"
       },
       {
-         "_include" : "elements/analysis.cnsm_p.0.chromosome_end_range.json"
+         "_include" : "elements/analysis.GLOBAL.0.normalized_expression_level.json"
       },
       {
-         "_include" : "elements/analysis.cnsm_p.0.mutation_type.json"
+         "_include" : "elements/analysis.GLOBAL.0.fold_change.json"
       },
       {
-         "_include" : "elements/analysis.cnsm_p.0.copy_number.json"
-      },
-      {
-         "_include" : "elements/analysis.cnsm_p.0.segment_mean.json"
-      },
-      {
-         "_include" : "elements/analysis.cnsm_p.0.segment_median.json"
+         "_include" : "elements/analysis.GLOBAL.0.reference_sample_id.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.quality_score.json"
@@ -59,6 +53,9 @@
          "_include" : "elements/analysis.GLOBAL.0.verification_platform.json"
       },
       {
+         "_include" : "elements/analysis.exp_g.0.probeset_id.json"
+      },
+      {
         "_include" : "elements/GLOBAL.0.uri.json"
       },
       {
@@ -67,9 +64,8 @@
       {
          "_include" : "elements/GLOBAL.0.note.json"
       }
-
    ],
-   "name" : "cnsm_p",
+   "name" : "exp_g",
    "relations" : [
       {
          "bidirectional" : true,
@@ -78,18 +74,14 @@
             "analysis_id",
             "analyzed_sample_id"
          ],
-         "other" : "cnsm_m",
+         "other" : "exp_m",
          "otherFields" : [
             "analysis_id",
             "analyzed_sample_id"
          ]
       }
    ],
-   "label" : "Copy Number Somatic Mutations (cnsm) - Primary Analysis File (p)",
-   "uniqueFields" : [
-      "analysis_id",
-      "analyzed_sample_id",
-      "mutation_id"
-   ],
+   "label" : "Gene Expression (exp) - Primary Analysis File (p)",
+   "uniqueFields" : [],
    "role" : "SUBMISSION"
 }
