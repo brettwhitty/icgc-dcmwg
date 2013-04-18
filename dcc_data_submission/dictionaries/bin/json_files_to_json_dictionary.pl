@@ -55,8 +55,18 @@ my @json_files = glob("$input/*.json");
 
 my $empty_json = qq|{"files" : [], "version" : "$version", "state" : "OPENED"}|;
 
+my $ord = {'p' => 1, 's' => 2, 'm' => 3, '' => 1 };
+my @for_sort = map {
+    my $base = basename($_, '.json');
+    my ($p, $s) = (split(/_/, $base), '');
+    [$p, $ord->{$s}, $_]
+} @json_files;
+
+@json_files = map { $_->[2] } sort { $a->[0] cmp $b->[0] || $a->[1] <=> $b->[1] } @for_sort;
+
 my $json_doc = decode_json($empty_json);
 foreach my $json_file(@json_files) {
+    print STDERR $json_file."\n";
     my $json = read_file($json_file);
     my $obj = decode_json($json);
     push(@{$json_doc->{'files'}}, $obj);

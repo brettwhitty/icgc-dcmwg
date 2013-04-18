@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "platform",
+   "label" : "Identifier of platform or technology used for analysis or verification; identifier should be taken from controlled vocabulary list of platforms recognized by the DCC and should directly correspond to the particular technology (including version) used. If no appropriate term exists for a given platform, please contact the DCC to request an addition to the CV terms.",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.platform.v1"
+         }
+      }
+   ]
+}

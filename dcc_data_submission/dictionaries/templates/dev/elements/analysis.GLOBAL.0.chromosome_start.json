@@ -1,0 +1,15 @@
+{
+   "summaryType" : null,
+   "controlled" : false,
+   "name" : "chromosome_start",
+   "label" : "Chromosome start position of the feature being described; Base positions are numbered using HGVS recommendations and should be specified as integer values; An ambiguous position can be represented as an interval by using the following HGVS notation: '(start_end)'; see http://www.hgvs.org/mutnomen/recs.html",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

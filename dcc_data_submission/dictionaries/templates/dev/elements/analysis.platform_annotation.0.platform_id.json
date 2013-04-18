@@ -1,0 +1,15 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "platform_id",
+   "label" : "A unique identifier for a specific analysis platform, or in the case of sequencing platforms, a particular set of annotations; this identifier is used to link analysis results to available annotation associated with the platform used",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

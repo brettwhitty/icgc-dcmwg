@@ -1,0 +1,15 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "feature_sequence",
+   "label" : "One or more sequence strings associated with the platform feature referenced by 'feature_id'; provide a list where appropriate using comma (',') as a delimiter",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

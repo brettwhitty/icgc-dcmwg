@@ -1,0 +1,15 @@
+{
+   "summaryType" : "AVERAGE",
+   "controlled" : false,
+   "name" : "percent_methylation",
+   "label" : "Estimate of percent methylation at interrogated site from any calculated normalized measure of the degree of methylation; express as decimal value less than or equal to 1",
+   "valueType" : "DECIMAL",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+      }
+   ]
+}

@@ -1,0 +1,49 @@
+{
+   "pattern" : "^(?:.*__)?family(?:__.*)?+\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/clinical.GLOBAL.0.donor_id.json"
+      },
+      {
+         "_include" : "elements/clinical.family.0.relationship_type.json"
+      },
+      {
+         "_include" : "elements/clinical.family.0.relationship_type_other.json"
+      },
+      {
+         "_include" : "elements/clinical.family.0.relationship_sex.json"
+      },
+      {
+         "_include" : "elements/clinical.family.0.relationship_age.json"
+      },
+      {
+         "_include" : "elements/clinical.family.0.relationship_disease_icd10.json"
+      },
+      {
+         "_include" : "elements/clinical.family.0.relationship_disease.json"
+      },
+      {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+      }
+   ],
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "donor_id"
+         ],
+         "other" : "donor",
+         "otherFields" : [
+            "donor_id"
+         ]
+      }
+   ],
+   "name" : "family",
+   "uniqueFields" : [],
+   "label" : "Donor Family (family)",
+   "role" : "SUBMISSION"
+}

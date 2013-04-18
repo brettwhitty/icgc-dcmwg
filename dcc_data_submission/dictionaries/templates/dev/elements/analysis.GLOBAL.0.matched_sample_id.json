@@ -1,0 +1,15 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "matched_sample_id",
+   "label" : "Unique identifier(s) for the matched sample(s) used in the analysis; must exist in the sample file; can provide a list of >1 IDs using comma (',') as a delimiter",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

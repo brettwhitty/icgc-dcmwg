@@ -1,0 +1,58 @@
+{
+   "pattern" : "^(?:.*__)?biomarker(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/clinical.GLOBAL.0.donor_id.json"
+      },
+      {
+         "_include" : "elements/clinical.GLOBAL.0.specimen_id.json"
+      },
+      {
+         "_include" : "elements/clinical.biomarker.0.biomarker_name.json"
+      },
+      {
+         "_include" : "elements/clinical.biomarker.0.biomarker_threshold.json"
+      },
+      {
+         "_include" : "elements/clinical.biomarker.0.biomarker_positive.json"
+      },
+      {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+      }
+   ],
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "donor_id"
+         ],
+         "other" : "donor",
+         "otherFields" : [
+            "donor_id"
+         ]
+      },
+      {
+         "bidirectional" : false,
+         "optionals" : [
+            1
+         ],
+         "fields" : [
+            "donor_id",
+            "specimen_id"
+         ],
+         "other" : "specimen",
+         "otherFields" : [
+            "donor_id",
+            "specimen_id"
+         ]
+      }
+   ],
+   "name" : "biomarker",
+   "uniqueFields" : [],
+   "label" : "Donor Biomarkers (biomarker)",
+   "role" : "SUBMISSION"
+}

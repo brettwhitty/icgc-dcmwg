@@ -1,0 +1,47 @@
+{
+   "pattern" : "^cnsm(?:__.*)?__s(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
+      },
+      {
+         "_include" : "elements/clinical.GLOBAL.0.analyzed_sample_id.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.mutation_id.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.gene_affected.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.transcript_affected.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.gene_build_version.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "analysis_id",
+            "analyzed_sample_id",
+            "mutation_id"
+         ],
+         "other" : "cnsm_p",
+         "otherFields" : [
+            "analysis_id",
+            "analyzed_sample_id",
+            "mutation_id"
+         ]
+      }
+   ],
+   "name" : "cnsm_s",
+   "uniqueFields" : [],
+   "label" : "Copy Number Somatic Mutations (cnsm) - Secondary Analysis File (s)",
+   "role" : "SUBMISSION"
+}

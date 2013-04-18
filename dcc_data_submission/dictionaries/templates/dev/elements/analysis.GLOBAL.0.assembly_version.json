@@ -1,0 +1,21 @@
+{
+   "summaryType" : "FREQUENCY",
+   "controlled" : false,
+   "name" : "assembly_version",
+   "label" : "Version of human reference genome assembly used in the analysis; specify the version used in alignments, or associated with the particular platform used",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      },
+      {
+         "type" : "codelist",
+         "config" : {
+            "name" : "GLOBAL.0.assembly_version.v1"
+         }
+      }
+   ]
+}

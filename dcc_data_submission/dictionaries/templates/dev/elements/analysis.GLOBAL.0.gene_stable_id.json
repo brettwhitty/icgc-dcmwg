@@ -1,0 +1,15 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "gene_stable_id",
+   "label" : "This element has been deprecated in favor of the more flexible 'db_xref'; For providing Ensembl gene or transcript annotation use the DB Xref syntax: 'Ensembl:ENSGxxx' and please continue to populate in this field as well as in 'db_xref'",
+   "valueType" : "TEXT",
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
+}

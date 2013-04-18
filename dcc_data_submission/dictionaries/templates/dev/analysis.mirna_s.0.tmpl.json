@@ -1,0 +1,49 @@
+{
+   "pattern" : "^mirna(?:__.*)?__s(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/analysis.mirna.0.mirna_seq.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.chromosome.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.chromosome_start.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.chromosome_end.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.chromosome_strand.json"
+      },
+      {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json",
+         "_extend"  : {
+             "label" : "Cross-reference to miRBase ID (e.g. has-let-7c) if available; use format 'miRBase:ID'. Can supply cross-references to other databases using same 'DB:ID' synatax; use a comma as list delimiter if necessary."
+         }
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "mirna_seq"
+         ],
+         "other" : "mirna_p",
+         "otherFields" : [
+            "mirna_seq"
+         ]
+      }
+   ],
+   "name" : "mirna_s",
+   "uniqueFields" : [],
+   "label" : "miRNA Expression (mirna) - Secondary Analysis File (s)",
+   "role" : "SUBMISSION"
+}

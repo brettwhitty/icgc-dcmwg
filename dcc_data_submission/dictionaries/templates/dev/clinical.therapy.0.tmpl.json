@@ -1,0 +1,46 @@
+{
+   "pattern" : "^(?:.*__)?therapy(?:__.*)?+\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/clinical.GLOBAL.0.donor_id.json"
+      },
+      {
+         "_include" : "elements/clinical.therapy.0.therapy_start_interval.json"
+      },
+      {
+         "_include" : "elements/clinical.therapy.0.therapy_duration.json"
+      },
+      {
+         "_include" : "elements/clinical.therapy.0.therapy_type.json"
+      },
+      {
+         "_include" : "elements/clinical.therapy.0.therapy_response.json"
+      },
+      {
+         "_include" : "elements/clinical.therapy.0.therapy_notes.json"
+      },
+      {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+      }
+   ],
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "donor_id"
+         ],
+         "other" : "donor",
+         "otherFields" : [
+            "donor_id"
+         ]
+      }
+   ],
+   "name" : "therapy",
+   "uniqueFields" : [],
+   "label" : "Donor Therapy (therapy)",
+   "role" : "SUBMISSION"
+}

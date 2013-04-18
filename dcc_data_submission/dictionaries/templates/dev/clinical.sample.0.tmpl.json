@@ -1,0 +1,48 @@
+{
+   "pattern" : "^(?:.*__)?sample(?:__.*)?+\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/clinical.GLOBAL.0.analyzed_sample_id.json"
+      },
+      {
+         "_include" : "elements/clinical.GLOBAL.0.specimen_id.json"
+      },
+      {
+         "_include" : "elements/clinical.sample.0.analyzed_sample_type.json"
+      },
+      {
+         "_include" : "elements/clinical.sample.0.analyzed_sample_type_other.json"
+      },
+      {
+         "_include" : "elements/clinical.sample.0.analyzed_sample_interval.json"
+      },
+      {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+      },
+      {
+         "_include" : "elements/clinical.sample.0.analyzed_sample_notes.json"
+      }
+   ],
+   "relations" : [
+      {
+         "bidirectional" : true,
+         "optionals" : [],
+         "fields" : [
+            "specimen_id"
+         ],
+         "other" : "specimen",
+         "otherFields" : [
+            "specimen_id"
+         ]
+      }
+   ],
+   "name" : "sample",
+   "uniqueFields" : [
+      "analyzed_sample_id"
+   ],
+   "label" : "Analyzed Sample Data File (sample)",
+   "role" : "SUBMISSION"
+}

@@ -1,0 +1,16 @@
+{
+   "summaryType" : "UNIQUE_COUNT",
+   "controlled" : false,
+   "name" : "mutation_id",
+   "label" : "Unique identifier assigned to a single mutation observation",
+   "valueType" : "TEXT",
+   "restrictions" : [       
+        {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : false
+         }
+        }
+
+    ]
+}

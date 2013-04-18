@@ -1,8 +1,0 @@
-{
-   "summaryType" : "UNIQUE_COUNT",
-   "controlled" : false,
-   "name" : "mutation_id",
-   "label" : "Unique identifier for the mutation",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}

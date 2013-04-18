@@ -1,0 +1,114 @@
+{
+   "pattern" : "^jcn(?:__.*)?__p(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "fields" : [
+      {
+         "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
+      },
+      {
+         "_include" : "elements/clinical.GLOBAL.0.analyzed_sample_id.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.matched_sample_id.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.junction_id.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.gene_stable_id.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.gene_chromosome.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.gene_strand.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.gene_start.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.gene_end.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.second_gene_stable_id.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.exon1_chromosome.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.exon1_number_bases.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.exon1_end.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.exon1_strand.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.exon2_chromosome.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.exon2_number_bases.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.exon2_start.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.exon2_strand.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.is_fusion_gene.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.is_novel_splice_form.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.junction_seq.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.junction_type.json"
+      },
+      {
+         "_include" : "elements/analysis.jcn_p.0.junction_read_count.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.quality_score.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.probability.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.verification_status.json"
+      },
+      {
+         "_include" : "elements/analysis.GLOBAL.0.verification_platform.json"
+      },
+      {
+        "_include" : "elements/GLOBAL.0.uri.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.db_xref.json"
+      },
+      {
+         "_include" : "elements/GLOBAL.0.note.json"
+      }
+   ],
+   "relations" : [
+      {
+         "bidirectional" : true,
+         "optionals" : [],
+         "fields" : [
+            "analysis_id",
+            "analyzed_sample_id"
+         ],
+         "other" : "jcn_m",
+         "otherFields" : [
+            "analysis_id",
+            "analyzed_sample_id"
+         ]
+      }
+   ],
+   "name" : "jcn_p",
+   "uniqueFields" : [],
+   "label" : "Splice Variation (jcn) - Primary Analysis File (p)",
+   "role" : "SUBMISSION"
+}

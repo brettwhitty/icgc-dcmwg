@@ -1,0 +1,20 @@
+{
+   "_include" : "elements/analysis.GLOBAL.0.platform.json",
+   "_extend" : {
+        "name" : "verification_platform",
+        "restrictions" : [
+            {
+                 "type" : "required",
+                 "config" : {
+                    "acceptMissingCode" : true
+                 }
+            },
+            {
+                "type" : "codelist",
+                "config" : {
+                    "name" : "GLOBAL.0.platform.v1"
+                }
+            }
+        ]  
+   }
+}
