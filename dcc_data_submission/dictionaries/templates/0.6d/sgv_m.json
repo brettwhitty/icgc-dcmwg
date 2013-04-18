@@ -1,0 +1,231 @@
+{
+   "pattern" : "^sgv__\\p{Lower}\\p{Lower}__\\d\\d__\\d\\d\\d__m__\\d+__(19|20)\\d\\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])\\.txt(.lzo)?(.gz)?(.bz2)?$",
+   "fields" : [
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "analysis_id",
+         "label" : "Unique identfier for the analysis performed for a particular group of samples",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "required",
+               "config" : {
+                  "acceptMissingCode" : false
+               }
+            }
+         ]
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "control_sample_id",
+         "label" : "Unique identifier for the control sample donated by the donor",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "required",
+               "config" : {
+                  "acceptMissingCode" : false
+               }
+            }
+         ]
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "matched_sample_id",
+         "label" : "Unique identifier for the tumour matched to the control sample",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "required",
+               "config" : {
+                  "acceptMissingCode" : false
+               }
+            }
+         ]
+      },
+      {
+         "summaryType" : "FREQUENCY",
+         "controlled" : true,
+         "name" : "assembly_version",
+         "label" : "Version of reference genome assembly",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "required",
+               "config" : {
+                  "acceptMissingCode" : true
+               }
+            },
+            {
+               "type" : "codelist",
+               "config" : {
+                  "name" : "appendix_B10"
+               }
+            }
+         ]
+      },
+      {
+         "summaryType" : "FREQUENCY",
+         "controlled" : true,
+         "name" : "platform",
+         "label" : "Platform or technology used in detecting the mutation/variation",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "required",
+               "config" : {
+                  "acceptMissingCode" : true
+               }
+            },
+            {
+               "type" : "codelist",
+               "config" : {
+                  "name" : "appendix_B5"
+               }
+            }
+         ]
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "experimental_protocol",
+         "label" : "Name of experimental protocol and URL to written protocol",
+         "valueType" : "TEXT",
+         "restrictions" : []
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "base_calling_algorithm",
+         "label" : "Name of base calling algorithm and URL to written protocol",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "required",
+               "config" : {
+                  "acceptMissingCode" : true
+               }
+            }
+         ]
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "alignment_algorithm",
+         "label" : "Name of alignment algorithm and URL to written protocol",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "required",
+               "config" : {
+                  "acceptMissingCode" : true
+               }
+            }
+         ]
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "variation_calling_algorithm",
+         "label" : "Name of variation calling algorithm and URL to written protocol",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "required",
+               "config" : {
+                  "acceptMissingCode" : true
+               }
+            }
+         ]
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "other_analysis_algorithm",
+         "label" : "Names of other analysis algorithms.  Separate multiple algorithms by commas.",
+         "valueType" : "TEXT",
+         "restrictions" : []
+      },
+      {
+         "summaryType" : "AVERAGE",
+         "controlled" : true,
+         "name" : "seq_coverage",
+         "label" : "Sequence coverage if analyzed by sequencing platforms",
+         "valueType" : "DECIMAL",
+         "restrictions" : []
+      },
+      {
+         "summaryType" : "FREQUENCY",
+         "controlled" : true,
+         "name" : "raw_data_repository",
+         "label" : "Public repository where raw data is submitted (#)",
+         "valueType" : "TEXT",
+         "restrictions" : [
+            {
+               "type" : "codelist",
+               "config" : {
+                  "name" : "appendix_B12"
+               }
+            }
+         ]
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "raw_data_accession",
+         "label" : "Accession and URL for referencing the raw data at the public repository",
+         "valueType" : "TEXT",
+         "restrictions" : []
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "note",
+         "label" : "Optional field to leave notes",
+         "valueType" : "TEXT",
+         "restrictions" : []
+      },
+      {
+         "summaryType" : null,
+         "controlled" : true,
+         "name" : "donor_id",
+         "label" : "Unique identifier for the donor",
+         "valueType" : "TEXT",
+         "restrictions" : []
+      }
+   ],
+   "name" : "sgv_m",
+   "relations" : [
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "control_sample_id"
+         ],
+         "other" : "sample",
+         "otherFields" : [
+            "analyzed_sample_id"
+         ]
+      },
+      {
+         "bidirectional" : false,
+         "optionals" : [],
+         "fields" : [
+            "matched_sample_id"
+         ],
+         "other" : "sample",
+         "otherFields" : [
+            "analyzed_sample_id"
+         ]
+      }
+   ],
+   "label" : null,
+   "uniqueFields" : [
+      "analysis_id",
+      "control_sample_id"
+   ],
+   "role" : "SUBMISSION"
+}
