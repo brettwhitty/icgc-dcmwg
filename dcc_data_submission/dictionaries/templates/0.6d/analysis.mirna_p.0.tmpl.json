@@ -8,7 +8,7 @@
          "_include" : "elements/clinical.GLOBAL.0.analyzed_sample_id.json"
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.mirna_seq.json"
+         "_include" : "elements/analysis.mirna.0.mirna_seq.json"
       },
       {
          "_include" : "elements/analysis.GLOBAL.0.normalized_read_count.json"
