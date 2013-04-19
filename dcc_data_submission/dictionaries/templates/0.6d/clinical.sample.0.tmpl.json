@@ -1,5 +1,5 @@
 {
-   "pattern" : "^(?:.*__)?sample(?:__.*)?+\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^(?:.*__)?sample(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/clinical.GLOBAL.0.analyzed_sample_id.json"

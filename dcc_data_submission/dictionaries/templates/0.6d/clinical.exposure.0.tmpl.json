@@ -1,5 +1,5 @@
 {
-   "pattern" : "^(?:.*__)?exposure(?:__.*)?+\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^(?:.*__)?exposure(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/clinical.GLOBAL.0.donor_id.json"
