@@ -10,7 +10,7 @@
          "_extend"  : { "controlled" : true }
       },
       {
-         "_include" : "elements/analysis.GLOBAL.0.variant_id.json",
+         "_include" : "elements/analysis.sgv_p.0.variant_id.json",
          "_extend"  : { "controlled" : true }
       },
       {
@@ -108,17 +108,6 @@
    ],
    "name" : "sgv_p",
    "relations" : [
-       {
-         "bidirectional" : false,
-         "optionals" : [],
-         "fields" : [
-            "analyzed_sample_id"
-         ],
-         "other" : "sample",
-         "otherFields" : [
-            "analyzed_sample_id"
-         ]
-      },
       {
          "bidirectional" : true,
          "optionals" : [],

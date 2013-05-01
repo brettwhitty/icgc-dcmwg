@@ -54,7 +54,7 @@
          "bidirectional" : false,
          "optionals" : [],
          "fields" : [
-            "sample_id"
+            "analyzed_sample_id"
          ],
          "other" : "sample",
          "otherFields" : [

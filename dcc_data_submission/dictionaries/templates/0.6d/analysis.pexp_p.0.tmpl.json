@@ -51,17 +51,6 @@
             "analysis_id",
             "analyzed_sample_id"
          ]
-      },
-      {
-         "bidirectional" : false,
-         "optionals" : [],
-         "fields" : [
-            "gene_stable_id"
-         ],
-         "other" : "hsap_gene",
-         "otherFields" : [
-            "stable_id_1023"
-         ]
       }
    ],
    "name" : "pexp_p",

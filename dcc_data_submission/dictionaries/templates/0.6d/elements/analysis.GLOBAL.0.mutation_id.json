@@ -2,7 +2,7 @@
    "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "mutation_id",
-   "label" : "Unique identifier assigned to a single mutation observation",
+   "label" : "Unique identifier assigned to a single mutation observation; must be unique within the scope of all data produced by a project",
    "valueType" : "TEXT",
    "restrictions" : [       
         {

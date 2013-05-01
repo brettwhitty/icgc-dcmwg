@@ -1,20 +1,14 @@
  {
-         "summaryType" : "FREQUENCY",
+         "summaryType" : "UNIQUE_COUNT",
          "controlled" : true,
-         "name" : "variant_type",
-         "label" : "A controlled vocabulary term describing the type of the observed variant",
+         "name" : "variant_id",
+         "label" : "Unique identifier assigned to a single variant observation; must be unique within the scope of all data produced by a project",
          "valueType" : "TEXT",
          "restrictions" : [
             {
                "type" : "required",
                "config" : {
                   "acceptMissingCode" : false
-               }
-            },
-            {
-               "type" : "codelist",
-               "config" : {
-                  "name" : "sgv_p.0.variant_type.v1"
                }
             }
          ]
