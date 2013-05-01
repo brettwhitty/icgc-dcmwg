@@ -17,7 +17,7 @@
          "_include" : "elements/clinical.sample.0.analyzed_sample_interval.json"
       },
       {
-        "_include" : "elements/GLOBAL.0.uri.json"
+         "_include" : "elements/GLOBAL.0.uri.json"
       },
       {
          "_include" : "elements/GLOBAL.0.db_xref.json"
