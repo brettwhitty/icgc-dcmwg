@@ -33,16 +33,16 @@
          "other" : "mirna_p",
          "otherFields" : [
             "mirna_seq",
-            "chromosome",
-            "chromosome_start",
-            "chromosome_end",
-            "chromosome_strand"
          ]
       }
    ],
    "name" : "mirna_s",
    "uniqueFields" : [
       "mirna_seq",
+      "chromosome",
+      "chromosome_start",
+      "chromosome_end",
+      "chromosome_strand"
    ],
    "label" : "miRNA Expression (mirna) - Secondary Analysis File (s)",
    "role" : "SUBMISSION"
