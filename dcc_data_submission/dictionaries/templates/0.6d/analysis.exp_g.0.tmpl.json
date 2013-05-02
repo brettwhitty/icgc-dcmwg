@@ -1,5 +1,5 @@
 {
-   "pattern" : "^exp(?:__.*)?__p(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
+   "pattern" : "^exp(?:__.*)?__g(?:__.*)?\\.txt(?:\\.lzo|\\.gz|\\.bz2)?$",
    "fields" : [
       {
          "_include" : "elements/analysis.GLOBAL.0.analysis_id.json"
@@ -81,7 +81,7 @@
          ]
       }
    ],
-   "label" : "Gene Expression (exp) - Primary Analysis File (p)",
+   "label" : "Gene Expression (exp) - Primary Analysis File (g)",
    "uniqueFields" : [],
    "role" : "SUBMISSION"
 }
