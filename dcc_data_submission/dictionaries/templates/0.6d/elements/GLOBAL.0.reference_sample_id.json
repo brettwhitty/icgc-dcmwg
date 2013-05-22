@@ -1,8 +1,0 @@
-{
-   "summaryType" : "UNIQUE_COUNT",
-   "controlled" : false,
-   "name" : "reference_sample_id",
-   "label" : "ID of the reference sample if differential expression is measured",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}

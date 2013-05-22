@@ -1,8 +1,0 @@
-{
-   "summaryType" : "AVERAGE",
-   "controlled" : false,
-   "name" : "probability",
-   "label" : "Probability of the mutation/variation call",
-   "valueType" : "DECIMAL",
-   "restrictions" : []
-}

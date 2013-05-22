@@ -1,8 +1,0 @@
-{
-   "summaryType" : "UNIQUE_COUNT",
-   "controlled" : false,
-   "name" : "transcript_affected",
-   "label" : "Transcript(s) containing the mutation/variation.  Use Ensembl transcript id.",
-   "valueType" : "TEXT",
-   "restrictions" : []
-}
