@@ -74,10 +74,6 @@
          "_extend"  : { "controlled" : true }
       },
       {
-         "_include" : "elements/GLOBAL.0.db_xref.json",
-         "_extend"  : { "controlled" : true }
-      },
-      {
          "_include" : "elements/analysis.GLOBAL.0.verification_status.json",
          "_extend"  : { "controlled" : true }
       },
