@@ -2,7 +2,7 @@
    "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "mutation",
-   "label" : "Mutation, e.g. C > G",
+   "label" : "Mutation, e.g. C>G",
    "valueType" : "TEXT",
    "restrictions" : [
       {
@@ -10,6 +10,12 @@
          "config" : {
             "acceptMissingCode" : false
          }
+      },
+      {
+        "type" : "regex",
+        "config" : {
+            "pattern" : "(?iu)^[ACGTURYMKWSBDHVNX-]+\\s*>\\s*[ACGTURYMKWSBDHVNX-]+$"
+        }
       }
    ]
 }

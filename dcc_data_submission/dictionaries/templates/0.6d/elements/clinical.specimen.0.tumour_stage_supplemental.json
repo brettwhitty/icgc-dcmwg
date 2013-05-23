@@ -4,5 +4,12 @@
    "name" : "tumour_stage_supplemental",
    "label" : "Optional additional staging provided as a comma-delimited list of 'staging system:stage'",
    "valueType" : "TEXT",
-   "restrictions" : []
+   "restrictions" : [
+      {
+         "type" : "required",
+         "config" : {
+            "acceptMissingCode" : true
+         }
+      }
+   ]
 }

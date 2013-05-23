@@ -10,6 +10,12 @@
          "config" : {
             "acceptMissingCode" : false
          }
+      },
+      {
+        "type" : "regex",
+        "config" : {
+            "pattern" : "(?iu)^[ACGTURYMKWSBDHVNX-]+/[ACGTURYMKWSBDHVNX-]+$"
+        }
       }
    ]
 }

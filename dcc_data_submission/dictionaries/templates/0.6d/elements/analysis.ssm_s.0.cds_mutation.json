@@ -4,5 +4,12 @@
    "name" : "cds_mutation",
    "label" : "Changes in coding sequence.  Indicate position, reference base and mutation base.",
    "valueType" : "TEXT",
-   "restrictions" : []
+   "restrictions" : [
+     {
+        "type" : "regex",
+        "config" : {
+            "pattern" : "(?iu)^\\d+[ACGTURYMKWSBDHVNX-]+>[ACGTURYMKWSBDHVNX-]+$"
+        }
+     } 
+   ]
 }

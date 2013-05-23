@@ -1,8 +1,15 @@
 {
-   "summaryType" : null,
+   "summaryType" : "FREQUENCY",
    "controlled" : false,
    "name" : "xref_ensembl_var_id",
    "label" : "Cross-reference: Ensembl Variation ID",
    "valueType" : "TEXT",
-   "restrictions" : []
+   "restrictions" : [
+        {
+        "type" : "regex",
+        "config" : {
+            "pattern" : "(?iu)(ENSEMBL:)?rs\\d+|\\w+"
+        }
+      }
+   ]
 }

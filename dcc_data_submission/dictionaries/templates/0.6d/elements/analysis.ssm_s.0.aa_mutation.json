@@ -4,5 +4,12 @@
    "name" : "aa_mutation",
    "label" : "Changes at amino acid level. Indicate the reference aa, position and mutation aa.",
    "valueType" : "TEXT",
-   "restrictions" : []
+   "restrictions" : [
+     {
+        "type" : "regex",
+        "config" : {
+            "pattern" : "(?iu)^[ARNDCQEGHILKMFPSTWYVBZX*]+\\d+[ARNDCQEGHILKMFPSTWYVBZX*]+$"
+        }
+     }
+   ]
 }

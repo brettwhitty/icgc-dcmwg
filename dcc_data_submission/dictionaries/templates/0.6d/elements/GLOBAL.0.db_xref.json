@@ -1,8 +1,15 @@
 {
-   "summaryType" : "UNIQUE_COUNT",
+   "summaryType" : "FREQUENCY",
    "controlled" : false,
    "name" : "db_xref",
    "label" : "Provide one or more related public database identifier cross-references in the format: 'DB:ID', where DB is defined database token and ID is the identifier in that database. For example, to annotate with one (or more) Ensembl gene IDs use the syntax: 'Ensembl:ENSGxxx'. Use comma ',' as a delimiter for lists of >1 xrefs. See: http://www.ncbi.nlm.nih.gov/genbank/collab/db_xref/",
    "valueType" : "TEXT",
-   "restrictions" : []
+   "restrictions" : [   
+    {
+        "type" : "regex",
+        "config" : {
+            "pattern" : "^[A-Z0-9_-]{2,}:\\w+"
+        }
+    }
+   ]
 }
