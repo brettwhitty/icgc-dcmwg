@@ -161,7 +161,7 @@ sub get_project_names {
     my $project_names = {};
     foreach my $project(@{$projects}) {
         $project_names->{$project->{'key'}}->{'name'} = $project->{'name'};
-        $project_names->{$project->{'key'}}->{'alias'} = $project->{'alias'} || '';
+        $project_names->{$project->{'key'}}->{'alias'} = $project->{'alias'} || $project->{'key'};
     }
     return $project_names;
 }
