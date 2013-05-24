@@ -110,7 +110,7 @@ sub do_list_projects {
         print to_json($projects);
     } elsif ($format eq 'txt') {
         foreach my $key(sort keys %{$projects}) {
-            print join("\t", ($key, $projects->{$key}))."\n";
+            print join("\t", ($key, $projects->{$key}->{'alias'}, $projects->{$key}->{'name'}))."\n";
         } 
     }
 }
@@ -160,7 +160,8 @@ sub get_project_names {
     ## set up project key => name hash
     my $project_names = {};
     foreach my $project(@{$projects}) {
-        $project_names->{$project->{'key'}} = $project->{'name'};
+        $project_names->{$project->{'key'}}->{'name'} = $project->{'name'};
+        $project_names->{$project->{'key'}}->{'alias'} = $project->{'alias'} || '';
     }
     return $project_names;
 }
