@@ -40,6 +40,7 @@ my $wsurl = "https://$server/ws";
 my $app = 'ICGC-DCC-SFTP';
 my $group = 'ICGC-DCC';
 my $realm = $server;
+my $sftp_port = 22;
 
 my $user;
 my $pass;
@@ -50,6 +51,8 @@ my $opts;
 my $debug;
 my $dryrun;
 my $drysftp;
+my $url_override;
+my $sftp_override;
 
 GetOptions(
     'user|u=s'          =>  \$user,
@@ -61,7 +64,21 @@ GetOptions(
     'debug!'            =>  \$debug,
     'dry-run!'          =>  \$dryrun,
     'dry-run-sftp!'     =>  \$drysftp,
+    'url=s'             =>  \$url_override,
+    'sftp=s'            =>  \$sftp_override,
 );
+
+if (defined($sftp_override)) {
+    $sftp_port = $sftp_override;
+}
+
+if (defined($url_override)) {
+    $url_override =~ /^(http[s]*):\/\/([^:]+)(?::)?(\d+)?$/i
+        or die "Malformed URL provided";
+    (my $protocol, $server, my $port) = ($1, $2, $3,);
+
+    $wsurl = $url_override.'/ws';
+}
 
 ## for now only 'txt' or 'json'
 $format ||= 'txt';
@@ -390,6 +407,7 @@ sub get_sftp {
 
     my %params = (
         'host' => $server, 
+        'port' => $sftp_port,
         'user' => $user, 
         'password' => $pass,  
     );
