@@ -10,6 +10,12 @@
          "config" : {
             "acceptMissingCode" : false
          }
+      },
+      {
+        "type" : "regex",
+        "config" : {
+            "pattern" : "^(?:[0-9]+|\\([0-9]+_[0-9]+\\))$"
+        }
       }
    ]
 }

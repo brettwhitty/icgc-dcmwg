@@ -8,7 +8,7 @@
         {
         "type" : "regex",
         "config" : {
-            "pattern" : "(?iu)(ENSEMBL:)?rs\\d+|\\w+"
+            "pattern" : "(?iu)(ENSEMBL:)?rs\\d+|[\\w\\-_0-9]+"
         }
       }
    ]
