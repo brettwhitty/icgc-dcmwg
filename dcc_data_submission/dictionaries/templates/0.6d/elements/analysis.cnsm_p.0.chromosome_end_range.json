@@ -1,5 +1,5 @@
 {
-   "summaryType" : "AVERAGE",
+   "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "chromosome_end_range",
    "label" : "Number of bases around chromosome_end that may contain the end position",

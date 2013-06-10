@@ -1,5 +1,5 @@
 {
-   "summaryType" : "AVERAGE",
+   "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "chromosome_start_range",
    "label" : "Number of bases around chromosome_start that may contain the start position",

@@ -1,5 +1,5 @@
 {
-   "summaryType" : "AVERAGE",
+   "summaryType" : "UNIQUE_COUNT",
    "controlled" : false,
    "name" : "chr_to_range",
    "label" : "Number of bases around chr_to_bkpt that may contain the real breakpoint",

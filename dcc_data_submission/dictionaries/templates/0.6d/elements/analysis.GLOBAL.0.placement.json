@@ -1,5 +1,5 @@
 {
-   "summaryType" : "AVERAGE",
+   "summaryType" : "FREQUENCY",
    "controlled" : false,
    "name" : "placement",
    "label" : "Ordering of breakpoint pairs within a single structural change event",

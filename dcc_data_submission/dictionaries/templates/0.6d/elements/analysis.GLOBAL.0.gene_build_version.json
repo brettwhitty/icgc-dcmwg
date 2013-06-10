@@ -1,5 +1,5 @@
 {
-   "summaryType" : "AVERAGE",
+   "summaryType" : "FREQUENCY",
    "controlled" : false,
    "name" : "gene_build_version",
    "label" : "Gene build version associated with the platform, tools or other methods used in the analysis; Supports the following syntax: 'DB:VERSION', eg: 'Ensembl:66'",

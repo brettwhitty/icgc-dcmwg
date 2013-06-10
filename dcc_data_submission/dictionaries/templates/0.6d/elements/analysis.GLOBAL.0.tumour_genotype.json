@@ -4,18 +4,5 @@
    "name" : "tumour_genotype",
    "label" : "Genotype of the tumour sample (use a dash for each missing base)",
    "valueType" : "TEXT",
-   "restrictions" : [
-      {
-         "type" : "required",
-         "config" : {
-            "acceptMissingCode" : false
-         }
-      },
-      {
-        "type" : "regex",
-        "config" : {
-            "pattern" : "(?iu)^[ACGTURYMKWSBDHVNX-]+/[ACGTURYMKWSBDHVNX-]+$"
-        }
-      }
-   ]
+   "_extend"   : "restrictions/genotype.json"
 }
