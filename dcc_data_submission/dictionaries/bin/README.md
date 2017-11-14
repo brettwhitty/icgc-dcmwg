@@ -21,7 +21,7 @@ Processes a JSON template file supporting includes with special key '_include', 
 Very quickly-written script to pull data element "codelists" from the ICGC DCC data submission system's REST API.
 
 ##### get_dictionaries.pl
-Very quickly-written script to pull "data dicitionary" JSON from the ICGC DCC data submission system's REST API.
+Very quickly-written script to pull "data dictionary" JSON from the ICGC DCC data submission system's REST API.
 
 ##### get_dictionary_codelists.pl
 Presumably a more specific application than 'get_all_codelists.pl'; can't recall why two scripts exist, possibly result of changes to the system's REST API during development.
