@@ -10,8 +10,10 @@ Script to allow quick building of JSON document for an ICGC DCC data element fro
 ##### create_final.sh
 Provided a versioned dictionary template directory as input, runs 'file_template_to_json.pl' and 'json_files_to_json_dictionary.pl' to generate a dictionary JSON file compatible with the ICGC DCC data submission system. See versioned dictionary template directories under '../templates'.
 Eg:
-  ./create_final.sh dev [dictionary.dev.json]
-  
+```
+    ./create_final.sh dev [dictionary.dev.json]
+```
+
 ##### file_template_to_json.pl
 Processes a JSON template file supporting includes with special key '_include', and extending via '_extend'.
 
