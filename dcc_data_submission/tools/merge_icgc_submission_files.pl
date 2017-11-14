@@ -17,7 +17,7 @@ use Set::Scalar;
 use Text::CSV;
 
 
-## Brett Whitty, OICR, 2013
+## Brett Whitty, OICR, 2012
 
 ## NOTE: This script will merge files, but it is assuming that all files of the same time have at
 ##       least the same columns, not necessarily in the same order. It is also assuming that the files 
